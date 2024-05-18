@@ -1,0 +1,6418 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "img": {
+        "source": [
+          "img/inv-wood-out.png",
+          "img/inv-wood-in.png",
+          "img/inv-wood-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Wood",
+        "description": "Found in trees, or on the ground.",
+        "level": -1
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-wood.png"
+    },
+    {
+      "id": 2,
+      "img": {
+        "source": [
+          "img/inv-stone-out.png",
+          "img/inv-stone-in.png",
+          "img/inv-stone-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Stone",
+        "description": "Find it on the ground or on the rock.",
+        "level": -1
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-stone.png"
+    },
+    {
+      "id": 3,
+      "img": {
+        "source": [
+          "img/inv-steel-out.png",
+          "img/inv-steel-in.png",
+          "img/inv-steel-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Iron",
+        "description": "Melt it on a Firepit or a Smelter",
+        "level": -1
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-steel.png"
+    },
+    {
+      "id": 4,
+      "img": {
+        "source": [
+          "img/inv-animal-fat-out.png",
+          "img/inv-animal-fat-in.png",
+          "img/inv-animal-fat-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Animal Fat",
+        "description": "Useful to craft bullet and clothes",
+        "level": -1
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-animal-fat.png"
+    },
+    {
+      "id": 5,
+      "img": {
+        "source": [
+          "img/inv-animal-tendon-out.png",
+          "img/inv-animal-tendon-in.png",
+          "img/inv-animal-tendon-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Animal Tendon",
+        "description": "Useful to make string",
+        "level": -1
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-animal-tendon.png"
+    },
+    {
+      "id": 6,
+      "img": {
+        "source": [
+          "img/inv-string-out.png",
+          "img/inv-string-in.png",
+          "img/inv-string-click.png"
+        ]
+      },
+      "detail": {
+        "name": "String",
+        "description": "Useful to craft many items.",
+        "level": -1
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-string.png"
+    },
+    {
+      "id": 7,
+      "img": {
+        "source": [
+          "img/inv-leather-boar-out.png",
+          "img/inv-leather-boar-in.png",
+          "img/inv-leather-boar-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Leather",
+        "description": "Useful to make clothes",
+        "level": -1
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-leather-boar.png"
+    },
+    {
+      "id": 8,
+      "img": {
+        "source": [
+          "img/inv-shaped-metal-out.png",
+          "img/inv-shaped-metal-in.png",
+          "img/inv-shaped-metal-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Shaped Metal",
+        "description": "To craft improved items.",
+        "level": -1
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-shaped-metal.png"
+    },
+    {
+      "id": 9,
+      "img": {
+        "source": [
+          "img/inv-raw-steak-out.png",
+          "img/inv-raw-steak-in.png",
+          "img/inv-raw-steak-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Raw Steak",
+        "description": "#Vegan",
+        "level": -1
+      },
+      "stack": 10,
+      "ground_img": "img/day-ground-raw-steak.png"
+    },
+    {
+      "id": 10,
+      "img": {
+        "source": [
+          "img/inv-cooked-steak-out.png",
+          "img/inv-cooked-steak-in.png",
+          "img/inv-cooked-steak-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Cooked Steak",
+        "description": "Rare or medium?",
+        "level": -1
+      },
+      "stack": 10,
+      "ground_img": "img/day-ground-cooked-steak.png"
+    },
+    {
+      "id": 11,
+      "img": {
+        "source": [
+          "img/inv-rotten-steak-out.png",
+          "img/inv-rotten-steak-in.png",
+          "img/inv-rotten-steak-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Rotten Steak",
+        "description": "Don't eat that.",
+        "level": -1
+      },
+      "stack": 10,
+      "ground_img": "img/day-ground-rotten-steak.png"
+    },
+    {
+      "id": 12,
+      "img": {
+        "source": [
+          "img/inv-orange-out.png",
+          "img/inv-orange-in.png",
+          "img/inv-orange-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Orange",
+        "description": "A little hungry?",
+        "level": -1
+      },
+      "stack": 20,
+      "ground_img": "img/day-ground-orange.png"
+    },
+    {
+      "id": 13,
+      "img": {
+        "source": [
+          "img/inv-rotten-orange-out.png",
+          "img/inv-rotten-orange-in.png",
+          "img/inv-rotten-orange-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Rotten Orange",
+        "description": "Go on, have a bite!",
+        "level": -1
+      },
+      "stack": 20,
+      "ground_img": "img/day-ground-rotten-orange.png"
+    },
+    {
+      "id": 14,
+      "img": {
+        "source": [
+          "img/inv-orange-seed-out.png",
+          "img/inv-orange-seed-in.png",
+          "img/inv-orange-seed-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Orange Seed",
+        "description": "Fill up on Vitame C?",
+        "level": -1
+      },
+      "stack": 40,
+      "width": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "height": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-plant2-orange.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-plant2-orange.png"
+      },
+      "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/day-plant0-orange.png"
+        },
+        {
+          "source": "img/day-plant1-orange.png"
+        },
+        {
+          "source": "img/day-plant2-orange.png"
+        },
+        {
+          "source": "img/day-plant3-orange.png"
+        },
+        {
+          "source": "img/day-plant4-orange.png"
+        }
+      ],
+      "ground_img": "img/day-ground-orange-seed.png"
+    },
+    {
+      "id": 15,
+      "img": {
+        "source": [
+          "img/inv-hachet-out.png",
+          "img/inv-hachet-in.png",
+          "img/inv-hachet-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Hatchet",
+        "description": "Harvest Wood and Stone.",
+        "level": -1
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-hachet.png"
+    },
+    {
+      "id": 16,
+      "img": {
+        "source": [
+          "img/inv-stone-pickaxe-out.png",
+          "img/inv-stone-pickaxe-in.png",
+          "img/inv-stone-pickaxe-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Stone Pickaxe",
+        "description": "Mine Stone and Iron.",
+        "level": -1
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-stone-pickaxe.png"
+    },
+    {
+      "id": 17,
+      "img": {
+        "source": [
+          "img/inv-steel-pickaxe-out.png",
+          "img/inv-steel-pickaxe-in.png",
+          "img/inv-steel-pickaxe-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Metal Pickaxe",
+        "description": "Mine also Sulfur",
+        "level": 6
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-steel-pickaxe.png"
+    },
+    {
+      "id": 18,
+      "img": {
+        "source": [
+          "img/inv-stone-axe-out.png",
+          "img/inv-stone-axe-in.png",
+          "img/inv-stone-axe-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Metal Axe",
+        "description": "Harvest a lot of Wood",
+        "level": 5
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-stone-axe.png"
+    },
+    {
+      "id": 19,
+      "img": {
+        "source": [
+          "img/inv-workbench-out.png",
+          "img/inv-workbench-in.png",
+          "img/inv-workbench-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Workbench",
+        "description": "Allow you to make new items.",
+        "level": -1
+      },
+      "stack": 255,
+      "putableimg": {
+        "source": "img/day-clear-blue-workbench.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-workbench.png"
+      },
+      "isDoor": 0,
+      "ground_img": "img/day-ground-workbench.png"
+    },
+    {
+      "id": 20,
+      "img": {
+        "source": [
+          "img/inv-wood-spear-out.png",
+          "img/inv-wood-spear-in.png",
+          "img/inv-wood-spear-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Wood Spear",
+        "description": "Don't forget to pick it up.",
+        "level": -1
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-wood-spear.png"
+    },
+    {
+      "id": 21,
+      "img": {
+        "source": [
+          "img/inv-wood-bow-out.png",
+          "img/inv-wood-bow-in.png",
+          "img/inv-wood-bow-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Wood Bow",
+        "description": "Where are the cowboys?",
+        "level": -1
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-wood-bow.png"
+    },
+    {
+      "id": 22,
+      "img": {
+        "source": [
+          "img/inv-9mm-out.png",
+          "img/inv-9mm-in.png",
+          "img/inv-9mm-click.png"
+        ]
+      },
+      "detail": {
+        "name": "9MM",
+        "description": "I hope you know how to aim.",
+        "level": 7
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-9mm.png"
+    },
+    {
+      "id": 23,
+      "img": {
+        "source": [
+          "img/inv-desert-eagle-out.png",
+          "img/inv-desert-eagle-in.png",
+          "img/inv-desert-eagle-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Desert Eagle",
+        "description": "Pretty useful for self-defense.",
+        "level": 9
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-desert-eagle.png"
+    },
+    {
+      "id": 24,
+      "img": {
+        "source": [
+          "img/inv-shotgun-out.png",
+          "img/inv-shotgun-in.png",
+          "img/inv-shotgun-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Shotgun",
+        "description": "He's dead now, don't you think?",
+        "level": 11
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-shotgun.png"
+    },
+    {
+      "id": 25,
+      "img": {
+        "source": [
+          "img/inv-ak47-out.png",
+          "img/inv-ak47-in.png",
+          "img/inv-ak47-click.png"
+        ]
+      },
+      "detail": {
+        "name": "AK47",
+        "description": "Revolution time",
+        "level": 12
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-ak47.png"
+    },
+    {
+      "id": 26,
+      "img": {
+        "source": [
+          "img/inv-sniper-out.png",
+          "img/inv-sniper-in.png",
+          "img/inv-sniper-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Sniper",
+        "description": "For the very angry shy",
+        "level": 13
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-sniper.png"
+    },
+    {
+      "id": 27,
+      "img": {
+        "source": [
+          "img/inv-wood-wall-out.png",
+          "img/inv-wood-wall-in.png",
+          "img/inv-wood-wall-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Wooden Wall",
+        "description": "Protected from the wind.",
+        "level": -1
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-wood-wall.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-wood-wall.png"
+      },
+      "isDoor": 0,
+      "broken": [
+        {
+          "source": "img/day-wood-wall-broken0.png"
+        },
+        {
+          "source": "img/day-wood-wall-broken1.png"
+        },
+        {
+          "source": "img/day-wood-wall-broken2.png"
+        }
+      ],
+      "instation": [
+        {
+          "source": "img/day-wood-wall0.png"
+        },
+        {
+          "source": "img/day-wood-wall1.png"
+        },
+        {
+          "source": "img/day-wood-wall2.png"
+        },
+        {
+          "source": "img/day-wood-wall3.png"
+        },
+        {
+          "source": "img/day-wood-wall4.png"
+        },
+        {
+          "source": "img/day-wood-wall5.png"
+        },
+        {
+          "source": "img/day-wood-wall6.png"
+        },
+        {
+          "source": "img/day-wood-wall7.png"
+        },
+        {
+          "source": "img/day-wood-wall8.png"
+        },
+        {
+          "source": "img/day-wood-wall9.png"
+        },
+        {
+          "source": "img/day-wood-wall10.png"
+        },
+        {
+          "source": "img/day-wood-wall11.png"
+        },
+        {
+          "source": "img/day-wood-wall12.png"
+        },
+        {
+          "source": "img/day-wood-wall13.png"
+        },
+        {
+          "source": "img/day-wood-wall14.png"
+        },
+        {
+          "source": "img/day-wood-wall15.png"
+        },
+        {
+          "source": "img/day-wood-wall16.png"
+        },
+        {
+          "source": "img/day-wood-wall17.png"
+        },
+        {
+          "source": "img/day-wood-wall18.png"
+        },
+        {
+          "source": "img/day-wood-wall19.png"
+        },
+        {
+          "source": "img/day-wood-wall20.png"
+        },
+        {
+          "source": "img/day-wood-wall21.png"
+        },
+        {
+          "source": "img/day-wood-wall22.png"
+        },
+        {
+          "source": "img/day-wood-wall23.png"
+        },
+        {
+          "source": "img/day-wood-wall24.png"
+        },
+        {
+          "source": "img/day-wood-wall25.png"
+        },
+        {
+          "source": "img/day-wood-wall26.png"
+        },
+        {
+          "source": "img/day-wood-wall27.png"
+        },
+        {
+          "source": "img/day-wood-wall28.png"
+        },
+        {
+          "source": "img/day-wood-wall29.png"
+        },
+        {
+          "source": "img/day-wood-wall30.png"
+        },
+        {
+          "source": "img/day-wood-wall31.png"
+        },
+        {
+          "source": "img/day-wood-wall32.png"
+        },
+        {
+          "source": "img/day-wood-wall33.png"
+        },
+        {
+          "source": "img/day-wood-wall34.png"
+        },
+        {
+          "source": "img/day-wood-wall35.png"
+        },
+        {
+          "source": "img/day-wood-wall36.png"
+        },
+        {
+          "source": "img/day-wood-wall37.png"
+        },
+        {
+          "source": "img/day-wood-wall38.png"
+        },
+        {
+          "source": "img/day-wood-wall39.png"
+        },
+        {
+          "source": "img/day-wood-wall40.png"
+        },
+        {
+          "source": "img/day-wood-wall41.png"
+        },
+        {
+          "source": "img/day-wood-wall42.png"
+        },
+        {
+          "source": "img/day-wood-wall43.png"
+        },
+        {
+          "source": "img/day-wood-wall44.png"
+        },
+        {
+          "source": "img/day-wood-wall45.png"
+        },
+        {
+          "source": "img/day-wood-wall46.png"
+        }
+      ],
+      "ground_img": "img/day-ground-wood-wall.png",
+      "blockMeshes": {
+        "inward": "cube_block_inward",
+        "outward": "cube_block_outward",
+        "side": "cube_block_side",
+        "enclosed": "cube_block_enclosed",
+        "building": "cube_block_building"
+      }
+    },
+    {
+      "id": 28,
+      "img": {
+        "source": [
+          "img/inv-stone-wall-out.png",
+          "img/inv-stone-wall-in.png",
+          "img/inv-stone-wall-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Stone Wall",
+        "description": "Saved the 3 little pigs.",
+        "level": 3
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-stone-wall.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-stone-wall.png"
+      },
+      "isDoor": 0,
+      "broken": [
+        {
+          "source": "img/day-stone-wall-broken0.png"
+        },
+        {
+          "source": "img/day-stone-wall-broken1.png"
+        },
+        {
+          "source": "img/day-stone-wall-broken2.png"
+        }
+      ],
+      "instation": [
+        {
+          "source": "img/day-stone-wall0.png"
+        },
+        {
+          "source": "img/day-stone-wall1.png"
+        },
+        {
+          "source": "img/day-stone-wall2.png"
+        },
+        {
+          "source": "img/day-stone-wall3.png"
+        },
+        {
+          "source": "img/day-stone-wall4.png"
+        },
+        {
+          "source": "img/day-stone-wall5.png"
+        },
+        {
+          "source": "img/day-stone-wall6.png"
+        },
+        {
+          "source": "img/day-stone-wall7.png"
+        },
+        {
+          "source": "img/day-stone-wall8.png"
+        },
+        {
+          "source": "img/day-stone-wall9.png"
+        },
+        {
+          "source": "img/day-stone-wall10.png"
+        },
+        {
+          "source": "img/day-stone-wall11.png"
+        },
+        {
+          "source": "img/day-stone-wall12.png"
+        },
+        {
+          "source": "img/day-stone-wall13.png"
+        },
+        {
+          "source": "img/day-stone-wall14.png"
+        },
+        {
+          "source": "img/day-stone-wall15.png"
+        },
+        {
+          "source": "img/day-stone-wall16.png"
+        },
+        {
+          "source": "img/day-stone-wall17.png"
+        },
+        {
+          "source": "img/day-stone-wall18.png"
+        },
+        {
+          "source": "img/day-stone-wall19.png"
+        },
+        {
+          "source": "img/day-stone-wall20.png"
+        },
+        {
+          "source": "img/day-stone-wall21.png"
+        },
+        {
+          "source": "img/day-stone-wall22.png"
+        },
+        {
+          "source": "img/day-stone-wall23.png"
+        },
+        {
+          "source": "img/day-stone-wall24.png"
+        },
+        {
+          "source": "img/day-stone-wall25.png"
+        },
+        {
+          "source": "img/day-stone-wall26.png"
+        },
+        {
+          "source": "img/day-stone-wall27.png"
+        },
+        {
+          "source": "img/day-stone-wall28.png"
+        },
+        {
+          "source": "img/day-stone-wall29.png"
+        },
+        {
+          "source": "img/day-stone-wall30.png"
+        },
+        {
+          "source": "img/day-stone-wall31.png"
+        },
+        {
+          "source": "img/day-stone-wall32.png"
+        },
+        {
+          "source": "img/day-stone-wall33.png"
+        },
+        {
+          "source": "img/day-stone-wall34.png"
+        },
+        {
+          "source": "img/day-stone-wall35.png"
+        },
+        {
+          "source": "img/day-stone-wall36.png"
+        },
+        {
+          "source": "img/day-stone-wall37.png"
+        },
+        {
+          "source": "img/day-stone-wall38.png"
+        },
+        {
+          "source": "img/day-stone-wall39.png"
+        },
+        {
+          "source": "img/day-stone-wall40.png"
+        },
+        {
+          "source": "img/day-stone-wall41.png"
+        },
+        {
+          "source": "img/day-stone-wall42.png"
+        },
+        {
+          "source": "img/day-stone-wall43.png"
+        },
+        {
+          "source": "img/day-stone-wall44.png"
+        },
+        {
+          "source": "img/day-stone-wall45.png"
+        },
+        {
+          "source": "img/day-stone-wall46.png"
+        }
+      ],
+      "ground_img": "img/day-ground-stone-wall.png",
+      "blockMeshes": {
+        "inward": "cube_block_inward",
+        "outward": "cube_block_outward",
+        "side": "cube_block_side",
+        "enclosed": "cube_block_enclosed",
+        "building": "cube_block_building"
+      }
+    },
+    {
+      "id": 29,
+      "img": {
+        "source": [
+          "img/inv-steel-wall-out.png",
+          "img/inv-steel-wall-in.png",
+          "img/inv-steel-wall-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Metal Wall",
+        "description": "Afraid we'll find you?",
+        "level": 6
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-stone-wall.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-stone-wall.png"
+      },
+      "isDoor": 0,
+      "broken": [
+        {
+          "source": "img/day-steel-wall-broken0.png"
+        },
+        {
+          "source": "img/day-steel-wall-broken1.png"
+        },
+        {
+          "source": "img/day-steel-wall-broken2.png"
+        }
+      ],
+      "instation": [
+        {
+          "source": "img/day-steel-wall0.png"
+        },
+        {
+          "source": "img/day-steel-wall1.png"
+        },
+        {
+          "source": "img/day-steel-wall2.png"
+        },
+        {
+          "source": "img/day-steel-wall3.png"
+        },
+        {
+          "source": "img/day-steel-wall4.png"
+        },
+        {
+          "source": "img/day-steel-wall5.png"
+        },
+        {
+          "source": "img/day-steel-wall6.png"
+        },
+        {
+          "source": "img/day-steel-wall7.png"
+        },
+        {
+          "source": "img/day-steel-wall8.png"
+        },
+        {
+          "source": "img/day-steel-wall9.png"
+        },
+        {
+          "source": "img/day-steel-wall10.png"
+        },
+        {
+          "source": "img/day-steel-wall11.png"
+        },
+        {
+          "source": "img/day-steel-wall12.png"
+        },
+        {
+          "source": "img/day-steel-wall13.png"
+        },
+        {
+          "source": "img/day-steel-wall14.png"
+        },
+        {
+          "source": "img/day-steel-wall15.png"
+        },
+        {
+          "source": "img/day-steel-wall16.png"
+        },
+        {
+          "source": "img/day-steel-wall17.png"
+        },
+        {
+          "source": "img/day-steel-wall18.png"
+        },
+        {
+          "source": "img/day-steel-wall19.png"
+        },
+        {
+          "source": "img/day-steel-wall20.png"
+        },
+        {
+          "source": "img/day-steel-wall21.png"
+        },
+        {
+          "source": "img/day-steel-wall22.png"
+        },
+        {
+          "source": "img/day-steel-wall23.png"
+        },
+        {
+          "source": "img/day-steel-wall24.png"
+        },
+        {
+          "source": "img/day-steel-wall25.png"
+        },
+        {
+          "source": "img/day-steel-wall26.png"
+        },
+        {
+          "source": "img/day-steel-wall27.png"
+        },
+        {
+          "source": "img/day-steel-wall28.png"
+        },
+        {
+          "source": "img/day-steel-wall29.png"
+        },
+        {
+          "source": "img/day-steel-wall30.png"
+        },
+        {
+          "source": "img/day-steel-wall31.png"
+        },
+        {
+          "source": "img/day-steel-wall32.png"
+        },
+        {
+          "source": "img/day-steel-wall33.png"
+        },
+        {
+          "source": "img/day-steel-wall34.png"
+        },
+        {
+          "source": "img/day-steel-wall35.png"
+        },
+        {
+          "source": "img/day-steel-wall36.png"
+        },
+        {
+          "source": "img/day-steel-wall37.png"
+        },
+        {
+          "source": "img/day-steel-wall38.png"
+        },
+        {
+          "source": "img/day-steel-wall39.png"
+        },
+        {
+          "source": "img/day-steel-wall40.png"
+        },
+        {
+          "source": "img/day-steel-wall41.png"
+        },
+        {
+          "source": "img/day-steel-wall42.png"
+        },
+        {
+          "source": "img/day-steel-wall43.png"
+        },
+        {
+          "source": "img/day-steel-wall44.png"
+        },
+        {
+          "source": "img/day-steel-wall45.png"
+        },
+        {
+          "source": "img/day-steel-wall46.png"
+        }
+      ],
+      "ground_img": "img/day-ground-steel-wall.png",
+      "blockMeshes": {
+        "inward": "cube_block_inward",
+        "outward": "cube_block_outward",
+        "side": "cube_block_side",
+        "enclosed": "cube_block_enclosed",
+        "building": "cube_block_building"
+      }
+    },
+    {
+      "id": 30,
+      "img": {
+        "source": [
+          "img/inv-wood-door-out.png",
+          "img/inv-wood-door-in.png",
+          "img/inv-wood-door-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Wooden Low Door",
+        "description": "You can shoot through it.",
+        "level": -1
+      },
+      "stack": 255,
+      "width": [
+        100,
+        35,
+        100,
+        35
+      ],
+      "height": [
+        35,
+        100,
+        35,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-wood-door.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-wood-door.png"
+      },
+      "isDoor": 1,
+      "broken": [
+        {
+          "source": "img/day-wood-door-broken0.png"
+        },
+        {
+          "source": "img/day-wood-door-broken1.png"
+        },
+        {
+          "source": "img/day-wood-door-broken2.png"
+        }
+      ],
+      "ground_img": "img/day-ground-wood-door.png"
+    },
+    {
+      "id": 31,
+      "img": {
+        "source": [
+          "img/inv-stone-door-out.png",
+          "img/inv-stone-door-in.png",
+          "img/inv-stone-door-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Stone Low Door",
+        "description": "You can shoot through it.",
+        "level": 3
+      },
+      "stack": 255,
+      "width": [
+        100,
+        35,
+        100,
+        35
+      ],
+      "height": [
+        35,
+        100,
+        35,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-stone-door.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-stone-door.png"
+      },
+      "isDoor": 1,
+      "broken": [
+        {
+          "source": "img/day-stone-door-broken0.png"
+        },
+        {
+          "source": "img/day-stone-door-broken1.png"
+        },
+        {
+          "source": "img/day-stone-door-broken2.png"
+        }
+      ],
+      "ground_img": "img/day-ground-stone-door.png"
+    },
+    {
+      "id": 32,
+      "img": {
+        "source": [
+          "img/inv-steel-door-out.png",
+          "img/inv-steel-door-in.png",
+          "img/inv-steel-door-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Metal Low Door",
+        "description": "Killing at home, for more comfort.",
+        "level": 6
+      },
+      "stack": 255,
+      "width": [
+        100,
+        35,
+        100,
+        35
+      ],
+      "height": [
+        35,
+        100,
+        35,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-stone-door.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-stone-door.png"
+      },
+      "isDoor": 1,
+      "broken": [
+        {
+          "source": "img/day-steel-door-broken0.png"
+        },
+        {
+          "source": "img/day-steel-door-broken1.png"
+        },
+        {
+          "source": "img/day-steel-door-broken2.png"
+        }
+      ],
+      "ground_img": "img/day-ground-steel-door.png"
+    },
+    {
+      "id": 33,
+      "img": {
+        "source": [
+          "img/inv-campfire-out.png",
+          "img/inv-campfire-in.png",
+          "img/inv-campfire-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Campfire",
+        "description": "Warm you when you're cold.",
+        "level": -1
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-campfire.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-campfire.png"
+      },
+      "isDoor": 0,
+      "ground_img": "img/day-ground-campfire.png"
+    },
+    {
+      "id": 34,
+      "img": {
+        "source": [
+          "img/inv-bullet-9mm-out.png",
+          "img/inv-bullet-9mm-in.png",
+          "img/inv-bullet-9mm-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Bullet",
+        "description": "For 9MM, Desert Eagle, and MP5 ",
+        "level": 6
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-bullet-9mm.png"
+    },
+    {
+      "id": 35,
+      "img": {
+        "source": [
+          "img/inv-bullet-shotgun-out.png",
+          "img/inv-bullet-shotgun-in.png",
+          "img/inv-bullet-shotgun-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Cartridge",
+        "description": "For Shotgun",
+        "level": 10
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-bullet-shotgun.png"
+    },
+    {
+      "id": 36,
+      "img": {
+        "source": [
+          "img/inv-bullet-sniper-out.png",
+          "img/inv-bullet-sniper-in.png",
+          "img/inv-bullet-sniper-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Heavy Bullet",
+        "description": "For Sniper, and AK47",
+        "level": 11
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-bullet-sniper.png"
+    },
+    {
+      "id": 37,
+      "img": {
+        "source": [
+          "img/inv-medikit-out.png",
+          "img/inv-medikit-in.png",
+          "img/inv-medikit-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Medkit",
+        "description": "Regenerate your life.",
+        "level": 10
+      },
+      "stack": 2,
+      "ground_img": "img/day-ground-medikit.png"
+    },
+    {
+      "id": 38,
+      "img": {
+        "source": [
+          "img/inv-bandage-out.png",
+          "img/inv-bandage-in.png",
+          "img/inv-bandage-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Bandage",
+        "description": "To heal the boo-boos.",
+        "level": -1
+      },
+      "stack": 5,
+      "ground_img": "img/day-ground-bandage.png"
+    },
+    {
+      "id": 39,
+      "img": {
+        "source": [
+          "img/inv-soda-out.png",
+          "img/inv-soda-in.png",
+          "img/inv-soda-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Soda",
+        "description": "Give energy.",
+        "level": 5
+      },
+      "stack": 5,
+      "ground_img": "img/day-ground-soda.png"
+    },
+    {
+      "id": 40,
+      "img": {
+        "source": [
+          "img/inv-MP5-out.png",
+          "img/inv-MP5-in.png",
+          "img/inv-MP5-click.png"
+        ]
+      },
+      "detail": {
+        "name": "MP5",
+        "description": "Not bad.",
+        "level": 10
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-MP5.png"
+    },
+    {
+      "id": 41,
+      "img": {
+        "source": [
+          "img/inv-headscarf-out.png",
+          "img/inv-headscarf-in.png",
+          "img/inv-headscarf-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Headscarf",
+        "description": "Warm you up.",
+        "level": -1
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-headscarf.png"
+    },
+    {
+      "id": 42,
+      "img": {
+        "source": [
+          "img/inv-chapka-out.png",
+          "img/inv-chapka-in.png",
+          "img/inv-chapka-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Chapka",
+        "description": "You look like a real woodcutter.",
+        "level": 7
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-chapka.png"
+    },
+    {
+      "id": 43,
+      "img": {
+        "source": [
+          "img/inv-coat-out.png",
+          "img/inv-coat-in.png",
+          "img/inv-coat-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Winter Coat",
+        "description": "Is the weather really that cold?",
+        "level": 9
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-coat.png"
+    },
+    {
+      "id": 44,
+      "img": {
+        "source": [
+          "img/inv-gaz-mask-out.png",
+          "img/inv-gaz-mask-in.png",
+          "img/inv-gaz-mask-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Radiation Mask",
+        "description": "Protect you from Radioactivity.",
+        "level": -1
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-gaz-mask.png"
+    },
+    {
+      "id": 45,
+      "img": {
+        "source": [
+          "img/inv-gaz-protection-out.png",
+          "img/inv-gaz-protection-in.png",
+          "img/inv-gaz-protection-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Min. Radiation Suit",
+        "description": "Previously, on Breaking Bad.",
+        "level": 8
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-gaz-protection.png"
+    },
+    {
+      "id": 46,
+      "img": {
+        "source": [
+          "img/inv-radiation-suit-out.png",
+          "img/inv-radiation-suit-in.png",
+          "img/inv-radiation-suit-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Radiation Suit",
+        "description": "Let's not grow a second head.",
+        "level": 10
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-radiation-suit.png"
+    },
+    {
+      "id": 47,
+      "img": {
+        "source": [
+          "img/inv-wood-arrow-out.png",
+          "img/inv-wood-arrow-in.png",
+          "img/inv-wood-arrow-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Wood Arrow",
+        "description": "Needed to use bow.",
+        "level": -1
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-wood-arrow.png"
+    },
+    {
+      "id": 48,
+      "img": {
+        "source": [
+          "img/inv-campfire-bbq-out.png",
+          "img/inv-campfire-bbq-in.png",
+          "img/inv-campfire-bbq-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Firepit",
+        "description": "Warm up and melt iron slowly.",
+        "level": 3
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-campfire-bbq.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-campfire-bbq.png"
+      },
+      "isDoor": 0,
+      "ground_img": "img/day-ground-campfire-bbq.png"
+    },
+    {
+      "id": 49,
+      "img": {
+        "source": [
+          "img/inv-smelter-out.png",
+          "img/inv-smelter-in.png",
+          "img/inv-smelter-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Smelter",
+        "description": "Melt iron, uranium and alloys",
+        "level": 10
+      },
+      "stack": 255,
+      "width": [
+        100,
+        260,
+        100,
+        260
+      ],
+      "height": [
+        260,
+        100,
+        260,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-smelter.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-smelter.png"
+      },
+      "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/day-smelter-off.png"
+        },
+        {
+          "source": "img/day-smelter-on.png"
+        },
+        {
+          "source": "img/day-smelter-light-up.png"
+        },
+        {
+          "source": "img/day-smelter-light-down.png"
+        }
+      ],
+      "ground_img": "img/day-ground-smelter.png"
+    },
+    {
+      "id": 50,
+      "img": {
+        "source": [
+          "img/inv-wood-door1-out.png",
+          "img/inv-wood-door1-in.png",
+          "img/inv-wood-door1-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Wooden Door",
+        "description": "Let's hope it holds.",
+        "level": -1
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-wood-door1.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-wood-door1.png"
+      },
+      "isDoor": 1,
+      "broken": [
+        {
+          "source": "img/day-wood-door1-broken0.png"
+        },
+        {
+          "source": "img/day-wood-door1-broken1.png"
+        },
+        {
+          "source": "img/day-wood-door1-broken2.png"
+        }
+      ],
+      "ground_img": "img/day-ground-wood-door1.png"
+    },
+    {
+      "id": 51,
+      "img": {
+        "source": [
+          "img/inv-stone-door1-out.png",
+          "img/inv-stone-door1-in.png",
+          "img/inv-stone-door1-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Stone Door",
+        "description": "Not too heavy to open, I hope.",
+        "level": 3
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-stone-door1.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-stone-door1.png"
+      },
+      "isDoor": 1,
+      "broken": [
+        {
+          "source": "img/day-stone-door1-broken0.png"
+        },
+        {
+          "source": "img/day-stone-door1-broken1.png"
+        },
+        {
+          "source": "img/day-stone-door1-broken2.png"
+        }
+      ],
+      "ground_img": "img/day-ground-stone-door1.png"
+    },
+    {
+      "id": 52,
+      "img": {
+        "source": [
+          "img/inv-steel-door1-out.png",
+          "img/inv-steel-door1-in.png",
+          "img/inv-steel-door1-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Metal Door",
+        "description": "I guess you're safe.",
+        "level": 6
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-stone-door1.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-stone-door1.png"
+      },
+      "isDoor": 1,
+      "broken": [
+        {
+          "source": "img/day-steel-door1-broken0.png"
+        },
+        {
+          "source": "img/day-steel-door1-broken1.png"
+        },
+        {
+          "source": "img/day-steel-door1-broken2.png"
+        }
+      ],
+      "ground_img": "img/day-ground-steel-door1.png"
+    },
+    {
+      "id": 53,
+      "img": {
+        "source": [
+          "img/inv-sulfur-out.png",
+          "img/inv-sulfur-in.png",
+          "img/inv-sulfur-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Sulfur",
+        "description": "Sulfur in such a cold landscape?",
+        "level": -1
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-sulfur.png"
+    },
+    {
+      "id": 54,
+      "img": {
+        "source": [
+          "img/inv-shaped-uranium-out.png",
+          "img/inv-shaped-uranium-in.png",
+          "img/inv-shaped-uranium-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Shaped Uranium",
+        "description": "Are you out of your mind?",
+        "level": -1
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-shaped-uranium.png"
+    },
+    {
+      "id": 55,
+      "img": {
+        "source": [
+          "img/inv-workbench2-out.png",
+          "img/inv-workbench2-in.png",
+          "img/inv-workbench2-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Research Bench",
+        "description": "Allow you to make new items",
+        "level": 6
+      },
+      "stack": 255,
+      "width": [
+        100,
+        280,
+        100,
+        280
+      ],
+      "height": [
+        280,
+        100,
+        280,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-workbench2.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-workbench2.png"
+      },
+      "isDoor": 0,
+      "ground_img": "img/day-ground-workbench2.png"
+    },
+    {
+      "id": 56,
+      "img": {
+        "source": [
+          "img/inv-uranium-out.png",
+          "img/inv-uranium-in.png",
+          "img/inv-uranium-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Uranium",
+        "description": "Do you want to end up as Marie Curie?",
+        "level": -1
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-uranium.png"
+    },
+    {
+      "id": 57,
+      "img": {
+        "source": [
+          "img/inv-weaving-machine-out.png",
+          "img/inv-weaving-machine-in.png",
+          "img/inv-weaving-machine-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Weaving Machine",
+        "description": "Allow you to sew clothes",
+        "level": -1
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-weaving-machine.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-weaving-machine.png"
+      },
+      "isDoor": 0,
+      "ground_img": "img/day-ground-weaving-machine.png"
+    },
+    {
+      "id": 58,
+      "img": {
+        "source": [
+          "img/inv-gasoline-out.png",
+          "img/inv-gasoline-in.png",
+          "img/inv-gasoline-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Gasoline",
+        "description": "Fuel for Smelter",
+        "level": -1
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-gasoline.png"
+    },
+    {
+      "id": 59,
+      "img": {
+        "source": [
+          "img/inv-sulfur-pickaxe-out.png",
+          "img/inv-sulfur-pickaxe-in.png",
+          "img/inv-sulfur-pickaxe-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Sulfur Pickaxe",
+        "description": "Mine also Uranium",
+        "level": 9
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-sulfur-pickaxe.png"
+    },
+    {
+      "id": 60,
+      "img": {
+        "source": [
+          "img/inv-chest-out.png",
+          "img/inv-chest-in.png",
+          "img/inv-chest-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Wood chest",
+        "description": "You can't store food in.",
+        "level": 8
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-chest.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-chest.png"
+      },
+      "isDoor": 0,
+      "ground_img": "img/day-ground-chest.png"
+    },
+    {
+      "id": 61,
+      "img": {
+        "source": [
+          "img/inv-fridge-out.png",
+          "img/inv-fridge-in.png",
+          "img/inv-fridge-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Fridge",
+        "description": "Save your food.",
+        "level": 9
+      },
+      "stack": 255,
+      "width": [
+        50,
+        100,
+        50,
+        100
+      ],
+      "height": [
+        100,
+        50,
+        100,
+        50
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-fridge.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-fridge.png"
+      },
+      "isDoor": 0,
+      "ground_img": "img/day-ground-fridge.png"
+    },
+    {
+      "id": 62,
+      "img": {
+        "source": [
+          "img/inv-wood-floor-out.png",
+          "img/inv-wood-floor-in.png",
+          "img/inv-wood-floor-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Wood floor",
+        "description": "Players can't spawn on it",
+        "level": -1
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-wood-floor.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-wood-floor.png"
+      },
+      "isDoor": 0,
+      "broken": [
+        {
+          "source": "img/day-wood-floor-broken0.png"
+        },
+        {
+          "source": "img/day-wood-floor-broken1.png"
+        },
+        {
+          "source": "img/day-wood-floor-broken2.png"
+        }
+      ],
+      "instation": [
+        {
+          "source": "img/day-wood-floor-0.png"
+        },
+        {
+          "source": "img/day-wood-floor-1.png"
+        },
+        {
+          "source": "img/day-wood-floor-2.png"
+        },
+        {
+          "source": "img/day-wood-floor-3.png"
+        },
+        {
+          "source": "img/day-wood-floor-4.png"
+        },
+        {
+          "source": "img/day-wood-floor-5.png"
+        },
+        {
+          "source": "img/day-wood-floor-6.png"
+        },
+        {
+          "source": "img/day-wood-floor-7.png"
+        },
+        {
+          "source": "img/day-wood-floor-8.png"
+        },
+        {
+          "source": "img/day-wood-floor-9.png"
+        },
+        {
+          "source": "img/day-wood-floor-10.png"
+        },
+        {
+          "source": "img/day-wood-floor-11.png"
+        },
+        {
+          "source": "img/day-wood-floor-12.png"
+        },
+        {
+          "source": "img/day-wood-floor-13.png"
+        },
+        {
+          "source": "img/day-wood-floor-14.png"
+        },
+        {
+          "source": "img/day-wood-floor-15.png"
+        },
+        {
+          "source": "img/day-wood-floor-16.png"
+        },
+        {
+          "source": "img/day-wood-floor-17.png"
+        },
+        {
+          "source": "img/day-wood-floor-18.png"
+        },
+        {
+          "source": "img/day-wood-floor-19.png"
+        },
+        {
+          "source": "img/day-wood-floor-20.png"
+        },
+        {
+          "source": "img/day-wood-floor-21.png"
+        },
+        {
+          "source": "img/day-wood-floor-22.png"
+        },
+        {
+          "source": "img/day-wood-floor-23.png"
+        },
+        {
+          "source": "img/day-wood-floor-24.png"
+        },
+        {
+          "source": "img/day-wood-floor-25.png"
+        },
+        {
+          "source": "img/day-wood-floor-26.png"
+        },
+        {
+          "source": "img/day-wood-floor-27.png"
+        },
+        {
+          "source": "img/day-wood-floor-28.png"
+        },
+        {
+          "source": "img/day-wood-floor-29.png"
+        },
+        {
+          "source": "img/day-wood-floor-30.png"
+        },
+        {
+          "source": "img/day-wood-floor-31.png"
+        },
+        {
+          "source": "img/day-wood-floor-32.png"
+        },
+        {
+          "source": "img/day-wood-floor-33.png"
+        },
+        {
+          "source": "img/day-wood-floor-34.png"
+        },
+        {
+          "source": "img/day-wood-floor-35.png"
+        },
+        {
+          "source": "img/day-wood-floor-36.png"
+        },
+        {
+          "source": "img/day-wood-floor-37.png"
+        },
+        {
+          "source": "img/day-wood-floor-38.png"
+        },
+        {
+          "source": "img/day-wood-floor-39.png"
+        },
+        {
+          "source": "img/day-wood-floor-40.png"
+        },
+        {
+          "source": "img/day-wood-floor-41.png"
+        },
+        {
+          "source": "img/day-wood-floor-42.png"
+        },
+        {
+          "source": "img/day-wood-floor-43.png"
+        },
+        {
+          "source": "img/day-wood-floor-44.png"
+        },
+        {
+          "source": "img/day-wood-floor-45.png"
+        },
+        {
+          "source": "img/day-wood-floor-46.png"
+        }
+      ],
+      "ground_img": "img/day-ground-wood-floor.png"
+    },
+    {
+      "id": 63,
+      "img": {
+        "source": [
+          "img/inv-hammer-out.png",
+          "img/inv-hammer-in.png",
+          "img/inv-hammer-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Hammer",
+        "description": "Destroy walls quickly.",
+        "level": 7
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-hammer.png"
+    },
+    {
+      "id": 64,
+      "img": {
+        "source": [
+          "img/inv-sleeping-bag-out.png",
+          "img/inv-sleeping-bag-in.png",
+          "img/inv-sleeping-bag-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Sleeping Bag",
+        "description": "Once dead, you keep your base",
+        "level": 9
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-sleeping-bag.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-sleeping-bag.png"
+      },
+      "isDoor": 0,
+      "ground_img": "img/day-ground-sleeping-bag.png"
+    },
+    {
+      "id": 65,
+      "img": {
+        "source": [
+          "img/inv-repair-hammer-out.png",
+          "img/inv-repair-hammer-in.png",
+          "img/inv-repair-hammer-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Repair Hammer",
+        "description": "Repair walls but require nails.",
+        "level": 5
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-repair-hammer.png"
+    },
+    {
+      "id": 66,
+      "img": {
+        "source": [
+          "img/inv-nails-out.png",
+          "img/inv-nails-in.png",
+          "img/inv-nails-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Nails",
+        "description": "Needed to repair walls.",
+        "level": -1
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-nails.png"
+    },
+    {
+      "id": 67,
+      "img": {
+        "source": [
+          "img/inv-wood-floor-light-out.png",
+          "img/inv-wood-floor-light-in.png",
+          "img/inv-wood-floor-light-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Light Wood Floor",
+        "description": "Players can't spawn on it",
+        "level": -1
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-woodlight-floor.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-woodlight-floor.png"
+      },
+      "isDoor": 0,
+      "broken": [
+        {
+          "source": "img/day-wood-floor-light-broken0.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-broken1.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-broken2.png"
+        }
+      ],
+      "instation": [
+        {
+          "source": "img/day-wood-floor-light-0.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-1.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-2.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-3.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-4.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-5.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-6.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-7.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-8.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-9.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-10.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-11.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-12.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-13.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-14.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-15.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-16.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-17.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-18.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-19.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-20.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-21.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-22.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-23.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-24.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-25.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-26.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-27.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-28.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-29.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-30.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-31.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-32.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-33.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-34.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-35.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-36.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-37.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-38.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-39.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-40.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-41.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-42.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-43.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-44.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-45.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-46.png"
+        }
+      ],
+      "ground_img": "img/day-ground-wood-floor-light.png"
+    },
+    {
+      "id": 68,
+      "img": {
+        "source": [
+          "img/inv-wood-smallwall-out.png",
+          "img/inv-wood-smallwall-in.png",
+          "img/inv-wood-smallwall-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Wooden Low Wall",
+        "description": "You can shoot through it.",
+        "level": -1
+      },
+      "stack": 255,
+      "width": [
+        100,
+        35,
+        100,
+        35
+      ],
+      "height": [
+        35,
+        100,
+        35,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-wood-smallwall.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-wood-smallwall.png"
+      },
+      "isDoor": 0,
+      "broken": [
+        {
+          "source": "img/day-wood-smallwalls-broken0.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-broken1.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-broken2.png"
+        }
+      ],
+      "instation": [
+        {
+          "source": "img/day-wood-smallwalls-0.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-1.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-2.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-3.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-4.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-5.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-6.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-7.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-8.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-9.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-10.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-11.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-12.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-13.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-14.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-15.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-16.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-17.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-18.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-19.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-20.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-21.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-22.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-23.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-24.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-25.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-26.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-27.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-28.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-29.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-30.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-31.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-32.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-33.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-34.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-35.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-36.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-37.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-38.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-39.png"
+        }
+      ],
+      "ground_img": "img/day-ground-wood-smallwall.png"
+    },
+    {
+      "id": 69,
+      "img": {
+        "source": [
+          "img/inv-stone-smallwall-out.png",
+          "img/inv-stone-smallwall-in.png",
+          "img/inv-stone-smallwall-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Stone Low Wall",
+        "description": "You can shoot through it.",
+        "level": 3
+      },
+      "stack": 255,
+      "width": [
+        100,
+        35,
+        100,
+        35
+      ],
+      "height": [
+        35,
+        100,
+        35,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-stone-smallwalls.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-stone-smallwalls.png"
+      },
+      "isDoor": 0,
+      "broken": [
+        {
+          "source": "img/day-stone-smallwalls-broken0.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-broken1.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-broken2.png"
+        }
+      ],
+      "instation": [
+        {
+          "source": "img/day-stone-smallwalls-0.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-1.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-2.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-3.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-4.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-5.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-6.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-7.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-8.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-9.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-10.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-11.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-12.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-13.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-14.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-15.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-16.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-17.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-18.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-19.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-20.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-21.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-22.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-23.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-24.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-25.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-26.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-27.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-28.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-29.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-30.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-31.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-32.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-33.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-34.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-35.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-36.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-37.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-38.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-39.png"
+        }
+      ],
+      "ground_img": "img/day-ground-stone-smallwall.png"
+    },
+    {
+      "id": 70,
+      "img": {
+        "source": [
+          "img/inv-steel-smallwall-out.png",
+          "img/inv-steel-smallwall-in.png",
+          "img/inv-steel-smallwall-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Metal Low Wall",
+        "description": "You can shoot through it.",
+        "level": 6
+      },
+      "stack": 255,
+      "width": [
+        100,
+        35,
+        100,
+        35
+      ],
+      "height": [
+        35,
+        100,
+        35,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-stone-smallwalls.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-stone-smallwalls.png"
+      },
+      "isDoor": 0,
+      "broken": [
+        {
+          "source": "img/day-steel-smallwalls-broken0.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-broken1.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-broken2.png"
+        }
+      ],
+      "instation": [
+        {
+          "source": "img/day-steel-smallwalls-0.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-1.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-2.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-3.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-4.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-5.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-6.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-7.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-8.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-9.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-10.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-11.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-12.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-13.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-14.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-15.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-16.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-17.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-18.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-19.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-20.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-21.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-22.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-23.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-24.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-25.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-26.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-27.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-28.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-29.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-30.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-31.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-32.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-33.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-34.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-35.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-36.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-37.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-38.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-39.png"
+        }
+      ],
+      "ground_img": "img/day-ground-steel-smallwall.png"
+    },
+    {
+      "id": 71,
+      "img": {},
+      "detail": {},
+      "isDoor": 0,
+      "ground_img": ""
+    },
+    {
+      "id": 72,
+      "img": {
+        "source": [
+          "img/inv-tomato-soup-out.png",
+          "img/inv-tomato-soup-in.png",
+          "img/inv-tomato-soup-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Tomato Soup",
+        "description": "Has not yet been opened.",
+        "level": -1
+      },
+      "stack": 5,
+      "ground_img": "img/day-ground-tomato-soup.png"
+    },
+    {
+      "id": 73,
+      "img": {
+        "source": [
+          "img/inv-syringe-out.png",
+          "img/inv-syringe-in.png",
+          "img/inv-syringe-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Syringe",
+        "description": "Useful to make drugs.",
+        "level": -1
+      },
+      "stack": 20,
+      "ground_img": "img/day-ground-syringe.png"
+    },
+    {
+      "id": 74,
+      "img": {
+        "source": [
+          "img/inv-chemical-component-out.png",
+          "img/inv-chemical-component-in.png",
+          "img/inv-chemical-component-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Chemical Component",
+        "description": "Useful to make a drugs.",
+        "level": -1
+      },
+      "stack": 20,
+      "ground_img": "img/day-ground-chemical-component.png"
+    },
+    {
+      "id": 75,
+      "img": {
+        "source": [
+          "img/inv-radaway-out.png",
+          "img/inv-radaway-in.png",
+          "img/inv-radaway-click.png"
+        ]
+      },
+      "detail": {
+        "name": "RadAway",
+        "description": "Reduce your radioactivity a lot.",
+        "level": -1
+      },
+      "stack": 5,
+      "ground_img": "img/day-ground-radaway.png"
+    },
+    {
+      "id": 76,
+      "img": {
+        "source": [
+          "img/inv-tomato-seed-out.png",
+          "img/inv-tomato-seed-in.png",
+          "img/inv-tomato-seed-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Tomato Seed",
+        "description": "A fruit or vegetable?",
+        "level": -1
+      },
+      "stack": 40,
+      "width": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "height": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-tomato.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-tomato.png"
+      },
+      "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/day-plant0-tomato.png"
+        },
+        {
+          "source": "img/day-plant1-tomato.png"
+        },
+        {
+          "source": "img/day-plant2-tomato.png"
+        },
+        {
+          "source": "img/day-plant3-tomato.png"
+        },
+        {
+          "source": "img/day-plant4-tomato.png"
+        }
+      ],
+      "ground_img": "img/day-ground-tomato-seed.png"
+    },
+    {
+      "id": 77,
+      "img": {
+        "source": [
+          "img/inv-tomato-out.png",
+          "img/inv-tomato-in.png",
+          "img/inv-tomato-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Tomato",
+        "description": "Why did the tomato blush?",
+        "level": -1
+      },
+      "stack": 20,
+      "ground_img": "img/day-ground-tomato.png"
+    },
+    {
+      "id": 78,
+      "img": {
+        "source": [
+          "img/inv-rotten-tomato-out.png",
+          "img/inv-rotten-tomato-in.png",
+          "img/inv-rotten-tomato-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Rotten Tomato",
+        "description": "Go on, have a bite!",
+        "level": -1
+      },
+      "stack": 20,
+      "ground_img": "img/day-ground-rotten-tomato.png"
+    },
+    {
+      "id": 79,
+      "img": {
+        "source": [
+          "img/inv-can-out.png",
+          "img/inv-can-in.png",
+          "img/inv-can-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Can",
+        "description": "Useful to craft food can.",
+        "level": -1
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-can.png"
+    },
+    {
+      "id": 80,
+      "img": {
+        "source": [
+          "img/inv-wood-crossbow-out.png",
+          "img/inv-wood-crossbow-in.png",
+          "img/inv-wood-crossbow-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Wood Crossbow",
+        "description": "Shoot faster, reload slower",
+        "level": 6
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-wood-crossbow.png"
+    },
+    {
+      "id": 81,
+      "img": {
+        "source": [
+          "img/inv-wood-crossarrow-out.png",
+          "img/inv-wood-crossarrow-in.png",
+          "img/inv-wood-crossarrow-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Crossbow Arrows",
+        "description": "Needed to use crossbow.",
+        "level": -1
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-wood-crossarrow.png"
+    },
+    {
+      "id": 82,
+      "img": {
+        "source": [
+          "img/inv-nail-gun-out.png",
+          "img/inv-nail-gun-in.png",
+          "img/inv-nail-gun-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Nail Gun",
+        "description": "Repair walls from a distance",
+        "level": 7
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-nail-gun.png"
+    },
+    {
+      "id": 83,
+      "img": {
+        "source": [
+          "img/inv-sawed-off-shotgun-out.png",
+          "img/inv-sawed-off-shotgun-in.png",
+          "img/inv-sawed-off-shotgun-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Sawed Off",
+        "description": "Shoot less far, do more damages",
+        "level": 13
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-sawed-off-shotgun.png"
+    },
+    {
+      "id": 84,
+      "img": {
+        "source": [
+          "img/inv-stone-floor-out.png",
+          "img/inv-stone-floor-in.png",
+          "img/inv-stone-floor-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Stone floor",
+        "description": "Players can't spawn on it",
+        "level": 4
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-stone-floor.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-stone-floor.png"
+      },
+      "isDoor": 0,
+      "broken": [
+        {
+          "source": "img/day-stone-floor-broken0.png"
+        },
+        {
+          "source": "img/day-stone-floor-broken1.png"
+        },
+        {
+          "source": "img/day-stone-floor-broken2.png"
+        }
+      ],
+      "instation": [
+        {
+          "source": "img/day-stone-floor-0.png"
+        },
+        {
+          "source": "img/day-stone-floor-1.png"
+        },
+        {
+          "source": "img/day-stone-floor-2.png"
+        },
+        {
+          "source": "img/day-stone-floor-3.png"
+        },
+        {
+          "source": "img/day-stone-floor-4.png"
+        },
+        {
+          "source": "img/day-stone-floor-5.png"
+        },
+        {
+          "source": "img/day-stone-floor-6.png"
+        },
+        {
+          "source": "img/day-stone-floor-7.png"
+        },
+        {
+          "source": "img/day-stone-floor-8.png"
+        },
+        {
+          "source": "img/day-stone-floor-9.png"
+        },
+        {
+          "source": "img/day-stone-floor-10.png"
+        },
+        {
+          "source": "img/day-stone-floor-11.png"
+        },
+        {
+          "source": "img/day-stone-floor-12.png"
+        },
+        {
+          "source": "img/day-stone-floor-13.png"
+        },
+        {
+          "source": "img/day-stone-floor-14.png"
+        },
+        {
+          "source": "img/day-stone-floor-15.png"
+        },
+        {
+          "source": "img/day-stone-floor-16.png"
+        },
+        {
+          "source": "img/day-stone-floor-17.png"
+        },
+        {
+          "source": "img/day-stone-floor-18.png"
+        },
+        {
+          "source": "img/day-stone-floor-19.png"
+        },
+        {
+          "source": "img/day-stone-floor-20.png"
+        },
+        {
+          "source": "img/day-stone-floor-21.png"
+        },
+        {
+          "source": "img/day-stone-floor-22.png"
+        },
+        {
+          "source": "img/day-stone-floor-23.png"
+        },
+        {
+          "source": "img/day-stone-floor-24.png"
+        },
+        {
+          "source": "img/day-stone-floor-25.png"
+        },
+        {
+          "source": "img/day-stone-floor-26.png"
+        },
+        {
+          "source": "img/day-stone-floor-27.png"
+        },
+        {
+          "source": "img/day-stone-floor-28.png"
+        },
+        {
+          "source": "img/day-stone-floor-29.png"
+        },
+        {
+          "source": "img/day-stone-floor-30.png"
+        },
+        {
+          "source": "img/day-stone-floor-31.png"
+        },
+        {
+          "source": "img/day-stone-floor-32.png"
+        },
+        {
+          "source": "img/day-stone-floor-33.png"
+        },
+        {
+          "source": "img/day-stone-floor-34.png"
+        },
+        {
+          "source": "img/day-stone-floor-35.png"
+        },
+        {
+          "source": "img/day-stone-floor-36.png"
+        },
+        {
+          "source": "img/day-stone-floor-37.png"
+        },
+        {
+          "source": "img/day-stone-floor-38.png"
+        },
+        {
+          "source": "img/day-stone-floor-39.png"
+        },
+        {
+          "source": "img/day-stone-floor-40.png"
+        },
+        {
+          "source": "img/day-stone-floor-41.png"
+        },
+        {
+          "source": "img/day-stone-floor-42.png"
+        },
+        {
+          "source": "img/day-stone-floor-43.png"
+        },
+        {
+          "source": "img/day-stone-floor-44.png"
+        },
+        {
+          "source": "img/day-stone-floor-45.png"
+        },
+        {
+          "source": "img/day-stone-floor-46.png"
+        }
+      ],
+      "ground_img": "img/day-ground-stone-floor.png"
+    },
+    {
+      "id": 85,
+      "img": {
+        "source": [
+          "img/inv-tiling-floor-out.png",
+          "img/inv-tiling-floor-in.png",
+          "img/inv-tiling-floor-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Tiling floor",
+        "description": "Players can't spawn on it",
+        "level": 4
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-tiling-floor.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-tiling-floor.png"
+      },
+      "isDoor": 0,
+      "broken": [
+        {
+          "source": "img/day-tiling-floor-broken0.png"
+        },
+        {
+          "source": "img/day-tiling-floor-broken1.png"
+        },
+        {
+          "source": "img/day-tiling-floor-broken2.png"
+        }
+      ],
+      "instation": [
+        {
+          "source": "img/day-tiling-floor-0.png"
+        },
+        {
+          "source": "img/day-tiling-floor-1.png"
+        },
+        {
+          "source": "img/day-tiling-floor-2.png"
+        },
+        {
+          "source": "img/day-tiling-floor-3.png"
+        },
+        {
+          "source": "img/day-tiling-floor-4.png"
+        },
+        {
+          "source": "img/day-tiling-floor-5.png"
+        },
+        {
+          "source": "img/day-tiling-floor-6.png"
+        },
+        {
+          "source": "img/day-tiling-floor-7.png"
+        },
+        {
+          "source": "img/day-tiling-floor-8.png"
+        },
+        {
+          "source": "img/day-tiling-floor-9.png"
+        },
+        {
+          "source": "img/day-tiling-floor-10.png"
+        },
+        {
+          "source": "img/day-tiling-floor-11.png"
+        },
+        {
+          "source": "img/day-tiling-floor-12.png"
+        },
+        {
+          "source": "img/day-tiling-floor-13.png"
+        },
+        {
+          "source": "img/day-tiling-floor-14.png"
+        },
+        {
+          "source": "img/day-tiling-floor-15.png"
+        },
+        {
+          "source": "img/day-tiling-floor-16.png"
+        },
+        {
+          "source": "img/day-tiling-floor-17.png"
+        },
+        {
+          "source": "img/day-tiling-floor-18.png"
+        },
+        {
+          "source": "img/day-tiling-floor-19.png"
+        },
+        {
+          "source": "img/day-tiling-floor-20.png"
+        },
+        {
+          "source": "img/day-tiling-floor-21.png"
+        },
+        {
+          "source": "img/day-tiling-floor-22.png"
+        },
+        {
+          "source": "img/day-tiling-floor-23.png"
+        },
+        {
+          "source": "img/day-tiling-floor-24.png"
+        },
+        {
+          "source": "img/day-tiling-floor-25.png"
+        },
+        {
+          "source": "img/day-tiling-floor-26.png"
+        },
+        {
+          "source": "img/day-tiling-floor-27.png"
+        },
+        {
+          "source": "img/day-tiling-floor-28.png"
+        },
+        {
+          "source": "img/day-tiling-floor-29.png"
+        },
+        {
+          "source": "img/day-tiling-floor-30.png"
+        },
+        {
+          "source": "img/day-tiling-floor-31.png"
+        },
+        {
+          "source": "img/day-tiling-floor-32.png"
+        },
+        {
+          "source": "img/day-tiling-floor-33.png"
+        },
+        {
+          "source": "img/day-tiling-floor-34.png"
+        },
+        {
+          "source": "img/day-tiling-floor-35.png"
+        },
+        {
+          "source": "img/day-tiling-floor-36.png"
+        },
+        {
+          "source": "img/day-tiling-floor-37.png"
+        },
+        {
+          "source": "img/day-tiling-floor-38.png"
+        },
+        {
+          "source": "img/day-tiling-floor-39.png"
+        },
+        {
+          "source": "img/day-tiling-floor-40.png"
+        },
+        {
+          "source": "img/day-tiling-floor-41.png"
+        },
+        {
+          "source": "img/day-tiling-floor-42.png"
+        },
+        {
+          "source": "img/day-tiling-floor-43.png"
+        },
+        {
+          "source": "img/day-tiling-floor-44.png"
+        },
+        {
+          "source": "img/day-tiling-floor-45.png"
+        },
+        {
+          "source": "img/day-tiling-floor-46.png"
+        }
+      ],
+      "ground_img": "img/day-ground-tiling-floor.png"
+    },
+    {
+      "id": 86,
+      "img": {},
+      "detail": {},
+      "isDoor": 0,
+      "ground_img": ""
+    },
+    {
+      "id": 87,
+      "img": {
+        "source": [
+          "img/inv-chips-out.png",
+          "img/inv-chips-in.png",
+          "img/inv-chips-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Crisps",
+        "description": "You salty?",
+        "level": -1
+      },
+      "stack": 5,
+      "ground_img": "img/day-ground-chips.png"
+    },
+    {
+      "id": 88,
+      "img": {
+        "source": [
+          "img/inv-rotten-chips-out.png",
+          "img/inv-rotten-chips-in.png",
+          "img/inv-rotten-chips-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Expired Crisps",
+        "description": "Go on, have a bite!",
+        "level": -1
+      },
+      "stack": 5,
+      "ground_img": "img/day-ground-rotten-chips.png"
+    },
+    {
+      "id": 89,
+      "img": {
+        "source": [
+          "img/inv-electronic-part-out.png",
+          "img/inv-electronic-part-in.png",
+          "img/inv-electronic-part-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Electronic Parts",
+        "description": "Break TV's and Computers to find it",
+        "level": -1
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-electronic-part.png"
+    },
+    {
+      "id": 90,
+      "img": {
+        "source": [
+          "img/inv-junk-out.png",
+          "img/inv-junk-in.png",
+          "img/inv-junk-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Junk",
+        "description": "Find it in houses",
+        "level": -1
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-junk.png"
+    },
+    {
+      "id": 91,
+      "img": {
+        "source": [
+          "img/inv-wires-out.png",
+          "img/inv-wires-in.png",
+          "img/inv-wires-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Big Wire",
+        "description": "Break big computers in power station (in the city)",
+        "level": -1
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-wires.png"
+    },
+    {
+      "id": 92,
+      "img": {
+        "source": [
+          "img/inv-small-energy-cells-out.png",
+          "img/inv-small-energy-cells-in.png",
+          "img/inv-small-energy-cells-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Energy Cells",
+        "description": "Used for energy weapons/buildings",
+        "level": 6
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-small-energy-cells.png"
+    },
+    {
+      "id": 93,
+      "img": {
+        "source": [
+          "img/inv-laser-pistol-out.png",
+          "img/inv-laser-pistol-in.png",
+          "img/inv-laser-pistol-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Laser Pistol",
+        "description": "Bullets are faster.",
+        "level": 14
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-laser-pistol.png"
+    },
+    {
+      "id": 94,
+      "img": {
+        "source": [
+          "img/inv-workbench3-out.png",
+          "img/inv-workbench3-in.png",
+          "img/inv-workbench3-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Tesla Bench",
+        "description": "Allow you to make powerful items",
+        "level": 10
+      },
+      "stack": 255,
+      "width": [
+        100,
+        260,
+        100,
+        260
+      ],
+      "height": [
+        260,
+        100,
+        260,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-workbench3.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-workbench3.png"
+      },
+      "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/day-workbench3.png"
+        },
+        {
+          "source": "img/day-workbench3-1.png"
+        },
+        {
+          "source": "img/day-workbench3-2.png"
+        },
+        {
+          "source": "img/day-workbench3-3.png"
+        }
+      ],
+      "ground_img": "img/day-ground-workbench3.png"
+    },
+    {
+      "id": 95,
+      "img": {
+        "source": [
+          "img/inv-alloys-out.png",
+          "img/inv-alloys-in.png",
+          "img/inv-alloys-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Alloys",
+        "description": "To craft powerful items",
+        "level": -1
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-alloys.png"
+    },
+    {
+      "id": 96,
+      "img": {
+        "source": [
+          "img/inv-sulfur-axe-out.png",
+          "img/inv-sulfur-axe-in.png",
+          "img/inv-sulfur-axe-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Sulfur Axe",
+        "description": "You look cool with it.",
+        "level": 10
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-sulfur-axe.png"
+    },
+    {
+      "id": 97,
+      "img": {
+        "source": [
+          "img/inv-landmine-out.png",
+          "img/inv-landmine-in.png",
+          "img/inv-landmine-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Landmine",
+        "description": "When you feel it, it's too late",
+        "level": 9
+      },
+      "stack": 20,
+      "width": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "height": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-landmine.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-landmine.png"
+      },
+      "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/day-landmine-0.png"
+        },
+        {
+          "source": "img/day-landmine-1.png"
+        },
+        {
+          "source": "img/day-landmine-2.png"
+        }
+      ],
+      "ground_img": "img/day-ground-landmine.png"
+    },
+    {
+      "id": 98,
+      "img": {
+        "source": [
+          "img/inv-dynamite-out.png",
+          "img/inv-dynamite-in.png",
+          "img/inv-dynamite-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Dynamite",
+        "description": "Get out of here, it gonna blow!",
+        "level": 9
+      },
+      "stack": 10,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-dynamite.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-dynamite.png"
+      },
+      "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/day-dynamite.png"
+        },
+        {
+          "source": "img/dynamite-yellow.png"
+        }
+      ],
+      "ground_img": "img/day-ground-dynamite.png"
+    },
+    {
+      "id": 99,
+      "img": {
+        "source": [
+          "img/inv-C4-out.png",
+          "img/inv-C4-in.png",
+          "img/inv-C4-click.png"
+        ]
+      },
+      "detail": {
+        "name": "C4",
+        "description": "Explode when you hit the trigger!",
+        "level": 16
+      },
+      "stack": 5,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-C4.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-C4.png"
+      },
+      "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/day-C4.png"
+        },
+        {
+          "source": "img/C4-red.png"
+        }
+      ],
+      "ground_img": "img/day-ground-C4.png"
+    },
+    {
+      "id": 100,
+      "img": {
+        "source": [
+          "img/inv-joystick-out.png",
+          "img/inv-joystick-in.png",
+          "img/inv-joystick-click.png"
+        ]
+      },
+      "detail": {
+        "name": "C4 Trigger",
+        "description": "Don't press the button or else...",
+        "level": 16
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-joystick.png"
+    },
+    {
+      "id": 101,
+      "img": {
+        "source": [
+          "img/inv-composter-out.png",
+          "img/inv-composter-in.png",
+          "img/inv-composter-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Compost",
+        "description": "Allows to accelerate rotting",
+        "level": 8
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-composter.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-composter.png"
+      },
+      "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/day-composter-off.png"
+        },
+        {
+          "source": "img/day-composter.png"
+        }
+      ],
+      "ground_img": "img/day-ground-composter.png"
+    },
+    {
+      "id": 102,
+      "img": {
+        "source": [
+          "img/inv-metal-helmet-out.png",
+          "img/inv-metal-helmet-in.png",
+          "img/inv-metal-helmet-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Metal Helmet",
+        "description": "Protects you from melee weapons",
+        "level": -1
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-metal-helmet.png"
+    },
+    {
+      "id": 103,
+      "img": {
+        "source": [
+          "img/inv-welding-helmet-out.png",
+          "img/inv-welding-helmet-in.png",
+          "img/inv-welding-helmet-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Welding Helmet",
+        "description": "Protects you from melee weapons",
+        "level": 7
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-welding-helmet.png"
+    },
+    {
+      "id": 104,
+      "img": {
+        "source": [
+          "img/inv-gladiator-helmet-out.png",
+          "img/inv-gladiator-helmet-in.png",
+          "img/inv-gladiator-helmet-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Gladiator Helmet",
+        "description": "Strength and honor.",
+        "level": 17
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-gladiator-helmet.png"
+    },
+    {
+      "id": 105,
+      "img": {
+        "source": [
+          "img/inv-leather-jacket-out.png",
+          "img/inv-leather-jacket-in.png",
+          "img/inv-leather-jacket-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Leather Jacket",
+        "description": "Protects you from guns",
+        "level": -1
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-leather-jacket.png"
+    },
+    {
+      "id": 106,
+      "img": {
+        "source": [
+          "img/inv-kevlar-suit-out.png",
+          "img/inv-kevlar-suit-in.png",
+          "img/inv-kevlar-suit-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Kevlar Suit",
+        "description": "Protects you from guns",
+        "level": 12
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-kevlar-suit.png"
+    },
+    {
+      "id": 107,
+      "img": {
+        "source": [
+          "img/inv-SWAT-suit-out.png",
+          "img/inv-SWAT-suit-in.png",
+          "img/inv-SWAT-suit-click.png"
+        ]
+      },
+      "detail": {
+        "name": "SWAT Suit",
+        "description": "Protects you from guns",
+        "level": 18
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-SWAT-suit.png"
+    },
+    {
+      "id": 108,
+      "img": {
+        "source": [
+          "img/inv-protective-suit-out.png",
+          "img/inv-protective-suit-in.png",
+          "img/inv-protective-suit-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Protective Suit",
+        "description": "Protects you from explosives",
+        "level": 12
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-protective-suit.png"
+    },
+    {
+      "id": 109,
+      "img": {
+        "source": [
+          "img/inv-tesla-0-out.png",
+          "img/inv-tesla-0-in.png",
+          "img/inv-tesla-0-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Power Armor",
+        "description": "Protects you from energy weapons",
+        "level": 10
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-tesla-0.png"
+    },
+    {
+      "id": 110,
+      "img": {
+        "source": [
+          "img/inv-tesla-armor-out.png",
+          "img/inv-tesla-armor-in.png",
+          "img/inv-tesla-armor-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Tesla Armor",
+        "description": "Protects you from energy weapons",
+        "level": 18
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-tesla-armor.png"
+    },
+    {
+      "id": 111,
+      "img": {
+        "source": [
+          "img/inv-wood-spike-out.png",
+          "img/inv-wood-spike-in.png",
+          "img/inv-wood-spike-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Wooden Spike",
+        "description": "Hurt and slow down",
+        "level": -1
+      },
+      "stack": 40,
+      "width": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "height": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-wood-spike.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-wood-spike.png"
+      },
+      "isDoor": 0,
+      "ground_img": "img/day-ground-wood-spike.png"
+    },
+    {
+      "id": 112,
+      "img": {
+        "source": [
+          "img/inv-laser-submachine-out.png",
+          "img/inv-laser-submachine-in.png",
+          "img/inv-laser-submachine-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Laser Submachine",
+        "description": "It's the best weapon",
+        "level": 14
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-laser-submachine.png"
+    },
+    {
+      "id": 113,
+      "img": {
+        "source": [
+          "img/inv-grenade-out.png",
+          "img/inv-grenade-in.png",
+          "img/inv-grenade-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Grenade",
+        "description": "Explodes when you throw it away.",
+        "level": 10
+      },
+      "stack": 10,
+      "ground_img": "img/day-ground-grenade.png"
+    },
+    {
+      "id": 114,
+      "img": {
+        "source": [
+          "img/inv-super-hammer-out.png",
+          "img/inv-super-hammer-in.png",
+          "img/inv-super-hammer-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Super Hammer",
+        "description": "Destroy indestructible walls.",
+        "level": -1
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-super-hammer.png"
+    },
+    {
+      "id": 115,
+      "img": {
+        "source": [
+          "img/inv-ghoul-blood-out.png",
+          "img/inv-ghoul-blood-in.png",
+          "img/inv-ghoul-blood-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Ghoul Blood",
+        "description": "Find it on speedy ghouls",
+        "level": -1
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-ghoul-blood.png"
+    },
+    {
+      "id": 116,
+      "img": {
+        "source": [
+          "img/inv-camouflage-gear-out.png",
+          "img/inv-camouflage-gear-in.png",
+          "img/inv-camouflage-gear-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Camouflage Gear",
+        "description": "Hide you in the forest",
+        "level": -1
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-camouflage-gear.png"
+    },
+    {
+      "id": 117,
+      "img": {
+        "source": [
+          "img/inv-agitator-out.png",
+          "img/inv-agitator-in.png",
+          "img/inv-agitator-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Agitator",
+        "description": "Allows to craft drugs",
+        "level": 8
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-agitator.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-agitator.png"
+      },
+      "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/day-agitator1-off.png"
+        },
+        {
+          "source": "img/day-agitator1-on.png"
+        },
+        {
+          "source": "img/day-agitator-1.png"
+        },
+        {
+          "source": "img/day-agitator-2.png"
+        }
+      ],
+      "ground_img": "img/day-ground-agitator.png"
+    },
+    {
+      "id": 118,
+      "img": {
+        "source": [
+          "img/inv-ghoul-drug-out.png",
+          "img/inv-ghoul-drug-in.png",
+          "img/inv-ghoul-drug-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Ghoul Drug",
+        "description": "Ghouls does not attack you.",
+        "level": 10
+      },
+      "stack": 5,
+      "ground_img": "img/day-ground-ghoul-drug.png"
+    },
+    {
+      "id": 119,
+      "img": {
+        "source": [
+          "img/inv-mushroom1-out.png",
+          "img/inv-mushroom1-in.png",
+          "img/inv-mushroom1-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Amanita",
+        "description": "Poisoned, really dangerous",
+        "level": -1
+      },
+      "stack": 20,
+      "ground_img": "img/day-ground-mushroom1.png"
+    },
+    {
+      "id": 120,
+      "img": {
+        "source": [
+          "img/inv-mushroom2-out.png",
+          "img/inv-mushroom2-in.png",
+          "img/inv-mushroom2-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Boletus",
+        "description": "Can be eaten.",
+        "level": -1
+      },
+      "stack": 20,
+      "ground_img": "img/day-ground-mushroom2.png"
+    },
+    {
+      "id": 121,
+      "img": {
+        "source": [
+          "img/inv-mushroom3-out.png",
+          "img/inv-mushroom3-in.png",
+          "img/inv-mushroom3-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Russula",
+        "description": "Can be eaten.",
+        "level": -1
+      },
+      "stack": 20,
+      "ground_img": "img/day-ground-mushroom3.png"
+    },
+    {
+      "id": 122,
+      "img": {
+        "source": [
+          "img/inv-rotten-mushroom1-out.png",
+          "img/inv-rotten-mushroom1-in.png",
+          "img/inv-rotten-mushroom1-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Rotten Mushroom",
+        "description": "Go on, have a bite!",
+        "level": -1
+      },
+      "stack": 20,
+      "ground_img": "img/day-ground-rotten-mushroom1.png"
+    },
+    {
+      "id": 123,
+      "img": {
+        "source": [
+          "img/inv-rotten-mushroom2-out.png",
+          "img/inv-rotten-mushroom2-in.png",
+          "img/inv-rotten-mushroom2-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Rotten Mushroom",
+        "description": "Go on, have a bite!",
+        "level": -1
+      },
+      "stack": 20,
+      "ground_img": "img/day-ground-rotten-mushroom2.png"
+    },
+    {
+      "id": 124,
+      "img": {
+        "source": [
+          "img/inv-rotten-mushroom3-out.png",
+          "img/inv-rotten-mushroom3-in.png",
+          "img/inv-rotten-mushroom3-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Rotten Mushroom",
+        "description": "Go on, have a bite!",
+        "level": -1
+      },
+      "stack": 20,
+      "ground_img": "img/day-ground-rotten-mushroom3.png"
+    },
+    {
+      "id": 125,
+      "img": {
+        "source": [
+          "img/inv-lapadoine-out.png",
+          "img/inv-lapadoine-in.png",
+          "img/inv-lapadoine-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Lapadone",
+        "description": "You are faster a certain time.",
+        "level": 14
+      },
+      "stack": 5,
+      "ground_img": "img/day-ground-lapadoine.png"
+    },
+    {
+      "id": 126,
+      "img": {
+        "source": [
+          "img/inv-lapabot-out.png",
+          "img/inv-lapabot-in.png",
+          "img/inv-lapabot-click.png"
+        ]
+      },
+      "detail": {
+        "name": "LapaBot",
+        "description": "Repair your base for you",
+        "level": 8
+      },
+      "stack": 5,
+      "width": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "height": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-lapabot.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-lapabot.png"
+      },
+      "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/lapabot0.png"
+        },
+        {
+          "source": "img/lapabot1.png"
+        },
+        {
+          "source": "img/lapabot2.png"
+        },
+        {
+          "source": "img/lapabot3.png"
+        },
+        {
+          "source": "img/lapabot4.png"
+        }
+      ],
+      "ground_img": "img/day-ground-lapabot.png"
+    },
+    {
+      "id": 127,
+      "img": {
+        "source": [
+          "img/inv-small-wire-out.png",
+          "img/inv-small-wire-in.png",
+          "img/inv-small-wire-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Small Wire",
+        "description": "Find it on TV's and computers in abandonned houses",
+        "level": -1
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-small-wire.png"
+    },
+    {
+      "id": 128,
+      "img": {
+        "source": [
+          "img/inv-pumpkin-out.png",
+          "img/inv-pumpkin-in.png",
+          "img/inv-pumpkin-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Pumpkin",
+        "description": "Eat it or craft a pumpkin ghoul",
+        "level": -1
+      },
+      "stack": 20,
+      "ground_img": "img/day-ground-pumpkin.png"
+    },
+    {
+      "id": 129,
+      "img": {
+        "source": [
+          "img/inv-rotten-pumpkin-out.png",
+          "img/inv-rotten-pumpkin-in.png",
+          "img/inv-rotten-pumpkin-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Rotten Pumpkin",
+        "description": "You should not click",
+        "level": -1
+      },
+      "stack": 20,
+      "ground_img": "img/day-ground-rotten-pumpkin.png"
+    },
+    {
+      "id": 130,
+      "img": {
+        "source": [
+          "img/inv-ghoul5-out.png",
+          "img/inv-ghoul5-in.png",
+          "img/inv-ghoul5-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Ghoul Seed",
+        "description": "Plant your pumpkin pet",
+        "level": 99
+      },
+      "stack": 40,
+      "width": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "height": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-root.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-root.png"
+      },
+      "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/day-root0-ghoul.png"
+        },
+        {
+          "source": "img/day-root1-ghoul.png"
+        },
+        {
+          "source": "img/day-root2-ghoul.png"
+        },
+        {
+          "source": "img/day-root3-ghoul.png"
+        },
+        {
+          "source": "img/day-root4-ghoul.png"
+        }
+      ],
+      "ground_img": "img/day-ground-ghoul5.png"
+    },
+    {
+      "id": 131,
+      "img": {
+        "source": [
+          "img/inv-extractor-out.png",
+          "img/inv-extractor-in.png",
+          "img/inv-extractor-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Extractor",
+        "description": "Allows you to extract minerals from the ground",
+        "level": 12
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-extractor.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-extractor.png"
+      },
+      "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/day-extractor.png"
+        },
+        {
+          "source": "img/day-extractor-rotate.png"
+        },
+        {
+          "source": "img/day-extractor-off.png"
+        }
+      ],
+      "ground_img": "img/day-ground-extractor.png"
+    },
+    {
+      "id": 132,
+      "img": {
+        "source": [
+          "img/inv-antidote-out.png",
+          "img/inv-antidote-in.png",
+          "img/inv-antidote-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Antidote",
+        "description": "Remove the withdrawal effects (pink skin)",
+        "level": 14
+      },
+      "stack": 5,
+      "ground_img": "img/day-ground-antidote.png"
+    },
+    {
+      "id": 133,
+      "img": {
+        "source": [
+          "img/inv-antidote-flower-out.png",
+          "img/inv-antidote-flower-in.png",
+          "img/inv-antidote-flower-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Rare Flower",
+        "description": "Use it to make an antidote",
+        "level": -1
+      },
+      "stack": 5,
+      "ground_img": "img/day-ground-antidote-flower.png"
+    },
+    {
+      "id": 134,
+      "img": {
+        "source": [
+          "img/inv-seed-tree-out.png",
+          "img/inv-seed-tree-in.png",
+          "img/inv-seed-tree-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Tree Seed",
+        "description": "Plant your forest",
+        "level": -1
+      },
+      "stack": 100,
+      "width": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "height": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-plant-tree.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-plant-tree.png"
+      },
+      "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/day-plant-tree0.png"
+        },
+        {
+          "source": "img/day-plant-tree1.png"
+        },
+        {
+          "source": "img/day-plant-tree2.png"
+        },
+        {
+          "source": "img/day-plant-tree3.png"
+        },
+        {
+          "source": "img/day-plant4-orange.png"
+        }
+      ],
+      "ground_img": "img/day-ground-seed-tree.png"
+    },
+    {
+      "id": 135,
+      "img": {
+        "source": [
+          "img/inv-acorn-out.png",
+          "img/inv-acorn-in.png",
+          "img/inv-acorn-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Acorn",
+        "description": "Eat it or plant a tree",
+        "level": -1
+      },
+      "stack": 20,
+      "ground_img": "img/day-ground-acorn.png"
+    },
+    {
+      "id": 136,
+      "img": {
+        "source": [
+          "img/inv-rotten-acorn-out.png",
+          "img/inv-rotten-acorn-in.png",
+          "img/inv-rotten-acorn-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Rotten Acorn",
+        "description": "Not really good",
+        "level": -1
+      },
+      "stack": 20,
+      "ground_img": "img/day-ground-rotten-acorn.png"
+    },
+    {
+      "id": 137,
+      "img": {
+        "source": [
+          "img/inv-laser-sniper-out.png",
+          "img/inv-laser-sniper-in.png",
+          "img/inv-laser-sniper-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Laser Sniper",
+        "description": "Faster than a sniper",
+        "level": 14
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-laser-sniper.png"
+    },
+    {
+      "id": 138,
+      "img": {
+        "source": [
+          "img/inv-hal-bot-out.png",
+          "img/inv-hal-bot-in.png",
+          "img/inv-hal-bot-click.png"
+        ]
+      },
+      "detail": {
+        "name": "HAL Bot",
+        "description": "Protect you",
+        "level": 8
+      },
+      "stack": 5,
+      "width": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "height": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-hal-bot.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-hal-bot.png"
+      },
+      "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/hal-bot0.png"
+        },
+        {
+          "source": "img/hal-bot1.png"
+        },
+        {
+          "source": "img/hal-bot2.png"
+        },
+        {
+          "source": "img/hal-bot3.png"
+        },
+        {
+          "source": "img/hal-bot4.png"
+        }
+      ],
+      "ground_img": "img/day-ground-hal-bot.png"
+    },
+    {
+      "id": 139,
+      "img": {
+        "source": [
+          "img/inv-tesla-bot-out.png",
+          "img/inv-tesla-bot-in.png",
+          "img/inv-tesla-bot-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Tesla Bot",
+        "description": "Protect you",
+        "level": 16
+      },
+      "stack": 5,
+      "width": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "height": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-tesla-bot.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-tesla-bot.png"
+      },
+      "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/tesla-bot0.png"
+        },
+        {
+          "source": "img/tesla-bot1.png"
+        },
+        {
+          "source": "img/tesla-bot2.png"
+        },
+        {
+          "source": "img/tesla-bot3.png"
+        },
+        {
+          "source": "img/tesla-bot4.png"
+        }
+      ],
+      "ground_img": "img/day-ground-tesla-bot.png"
+    },
+    {
+      "id": 140,
+      "img": {
+        "source": [
+          "img/inv-wire0-out.png",
+          "img/inv-wire0-in.png",
+          "img/inv-wire0-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Cable",
+        "description": "Create automatic mechanisms",
+        "level": -1
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-wire0.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-wire0.png"
+      },
+      "isDoor": 0,
+      "ground_img": "img/day-ground-wire0.png"
+    },
+    {
+      "id": 141,
+      "img": {
+        "source": [
+          "img/inv-wire1-out.png",
+          "img/inv-wire1-in.png",
+          "img/inv-wire1-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Cable",
+        "description": "Create automatic mechanisms",
+        "level": -1
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-wire1.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-wire1.png"
+      },
+      "isDoor": 0,
+      "ground_img": "img/day-ground-wire1.png"
+    },
+    {
+      "id": 142,
+      "img": {
+        "source": [
+          "img/inv-wire2-out.png",
+          "img/inv-wire2-in.png",
+          "img/inv-wire2-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Cable",
+        "description": "Create automatic mechanisms",
+        "level": -1
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-wire2.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-wire2.png"
+      },
+      "isDoor": 0,
+      "ground_img": "img/day-ground-wire2.png"
+    },
+    {
+      "id": 157,
+      "img": {
+        "source": [
+          "img/inv-wire3-out.png",
+          "img/inv-wire3-in.png",
+          "img/inv-wire3-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Cable",
+        "description": "Create automatic mechanisms",
+        "level": -1
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-wire3.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-wire3.png"
+      },
+      "isDoor": 0,
+      "ground_img": "img/day-ground-wire3.png"
+    },
+    {
+      "id": 144,
+      "img": {
+        "source": [
+          "img/inv-switch-out.png",
+          "img/inv-switch-in.png",
+          "img/inv-switch-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Switch",
+        "description": "Turn on/off mechanisms",
+        "level": -1
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-switch.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-switch.png"
+      },
+      "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/day-switch-off.png"
+        },
+        {
+          "source": "img/day-switch-on.png"
+        }
+      ],
+      "ground_img": "img/day-ground-switch.png"
+    },
+    {
+      "id": 145,
+      "img": {
+        "source": [
+          "img/inv-switch-or-out.png",
+          "img/inv-switch-or-in.png",
+          "img/inv-switch-or-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Gate OR",
+        "description": "Activate only if an entry is on.",
+        "level": -1
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-switch-or.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-switch-or.png"
+      },
+      "isDoor": 0,
+      "ground_img": "img/day-ground-switch-or.png"
+    },
+    {
+      "id": 146,
+      "img": {
+        "source": [
+          "img/inv-switch-and-out.png",
+          "img/inv-switch-and-in.png",
+          "img/inv-switch-and-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Gate AND",
+        "description": "Activate only if all entries are on.",
+        "level": -1
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-switch-and.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-switch-and.png"
+      },
+      "isDoor": 0,
+      "ground_img": "img/day-ground-switch-and.png"
+    },
+    {
+      "id": 147,
+      "img": {
+        "source": [
+          "img/inv-switch-reverse-out.png",
+          "img/inv-switch-reverse-in.png",
+          "img/inv-switch-reverse-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Gate NOT",
+        "description": "Activate only if no entry is on.",
+        "level": -1
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-switch-reverse.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-switch-reverse.png"
+      },
+      "isDoor": 0,
+      "ground_img": "img/day-ground-switch-reverse.png"
+    },
+    {
+      "id": 148,
+      "img": {
+        "source": [
+          "img/inv-lamp-white-out.png",
+          "img/inv-lamp-white-in.png",
+          "img/inv-lamp-white-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Lamp",
+        "description": "Turn on when connected, damage ghoul",
+        "level": -1
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-lamp.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-lamp.png"
+      },
+      "isDoor": 0,
+      "ground_img": "img/day-ground-lamp-white.png"
+    },
+    {
+      "id": 149,
+      "img": {
+        "source": [
+          "img/inv-cable-wall-out.png",
+          "img/inv-cable-wall-in.png",
+          "img/inv-cable-wall-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Cable  - Wall",
+        "description": "Wall that can be connected to a cable",
+        "level": 7
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-cable-wall.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-cable-wall.png"
+      },
+      "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/day-cable-wall.png"
+        },
+        {
+          "source": "img/day-cable-wall1.png"
+        },
+        {
+          "source": "img/day-cable-wall2.png"
+        },
+        {
+          "source": "img/day-cable-wall3.png"
+        }
+      ],
+      "ground_img": "img/day-ground-cable-wall.png"
+    },
+    {
+      "id": 150,
+      "img": {
+        "source": [
+          "img/inv-automatic-door-out.png",
+          "img/inv-automatic-door-in.png",
+          "img/inv-automatic-door-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Automatic Door",
+        "description": "Connect it to a switch to open and close it.",
+        "level": 7
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-automatic-door.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-automatic-door.png"
+      },
+      "isDoor": 0,
+      "instation": [
+        {},
+        {}
+      ],
+      "ground_img": "img/day-ground-automatic-door.png"
+    },
+    {
+      "id": 151,
+      "img": {
+        "source": [
+          "img/inv-platform-out.png",
+          "img/inv-platform-in.png",
+          "img/inv-platform-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Platform",
+        "description": "Weight detector",
+        "level": -1
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-platform-off.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-platform-off.png"
+      },
+      "isDoor": 0,
+      "ground_img": "img/day-ground-platform.png"
+    },
+    {
+      "id": 152,
+      "img": {
+        "source": [
+          "img/inv-stone-cave-out.png",
+          "img/inv-stone-cave-in.png",
+          "img/inv-stone-cave-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Stone Cave",
+        "description": "Build mountains.",
+        "level": 99
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-stone-cave.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-stone-cave.png"
+      },
+      "isDoor": 0,
+      "broken": [
+        {
+          "source": "img/day-stone-cave-broken0.png"
+        },
+        {
+          "source": "img/day-stone-cave-broken1.png"
+        },
+        {
+          "source": "img/day-stone-cave-broken2.png"
+        }
+      ],
+      "instation": [
+        {
+          "source": "img/day-stone-cave0.png"
+        },
+        {
+          "source": "img/day-stone-cave1.png"
+        },
+        {
+          "source": "img/day-stone-cave2.png"
+        },
+        {
+          "source": "img/day-stone-cave3.png"
+        },
+        {
+          "source": "img/day-stone-cave4.png"
+        },
+        {
+          "source": "img/day-stone-cave5.png"
+        },
+        {
+          "source": "img/day-stone-cave6.png"
+        },
+        {
+          "source": "img/day-stone-cave7.png"
+        },
+        {
+          "source": "img/day-stone-cave8.png"
+        },
+        {
+          "source": "img/day-stone-cave9.png"
+        },
+        {
+          "source": "img/day-stone-cave10.png"
+        },
+        {
+          "source": "img/day-stone-cave11.png"
+        },
+        {
+          "source": "img/day-stone-cave12.png"
+        },
+        {
+          "source": "img/day-stone-cave13.png"
+        },
+        {
+          "source": "img/day-stone-cave14.png"
+        },
+        {
+          "source": "img/day-stone-cave15.png"
+        },
+        {
+          "source": "img/day-stone-cave16.png"
+        },
+        {
+          "source": "img/day-stone-cave17.png"
+        },
+        {
+          "source": "img/day-stone-cave18.png"
+        },
+        {
+          "source": "img/day-stone-cave19.png"
+        },
+        {
+          "source": "img/day-stone-cave20.png"
+        },
+        {
+          "source": "img/day-stone-cave21.png"
+        },
+        {
+          "source": "img/day-stone-cave22.png"
+        },
+        {
+          "source": "img/day-stone-cave23.png"
+        },
+        {
+          "source": "img/day-stone-cave24.png"
+        },
+        {
+          "source": "img/day-stone-cave25.png"
+        },
+        {
+          "source": "img/day-stone-cave26.png"
+        },
+        {
+          "source": "img/day-stone-cave27.png"
+        },
+        {
+          "source": "img/day-stone-cave28.png"
+        },
+        {
+          "source": "img/day-stone-cave29.png"
+        },
+        {
+          "source": "img/day-stone-cave30.png"
+        },
+        {
+          "source": "img/day-stone-cave31.png"
+        },
+        {
+          "source": "img/day-stone-cave32.png"
+        },
+        {
+          "source": "img/day-stone-cave33.png"
+        },
+        {
+          "source": "img/day-stone-cave34.png"
+        },
+        {
+          "source": "img/day-stone-cave35.png"
+        },
+        {
+          "source": "img/day-stone-cave36.png"
+        },
+        {
+          "source": "img/day-stone-cave37.png"
+        },
+        {
+          "source": "img/day-stone-cave38.png"
+        },
+        {
+          "source": "img/day-stone-cave39.png"
+        },
+        {
+          "source": "img/day-stone-cave40.png"
+        },
+        {
+          "source": "img/day-stone-cave41.png"
+        },
+        {
+          "source": "img/day-stone-cave42.png"
+        },
+        {
+          "source": "img/day-stone-cave43.png"
+        },
+        {
+          "source": "img/day-stone-cave44.png"
+        },
+        {
+          "source": "img/day-stone-cave45.png"
+        },
+        {
+          "source": "img/day-stone-cave46.png"
+        }
+      ],
+      "ground_img": "img/day-ground-stone-cave.png"
+    },
+    {
+      "id": 153,
+      "img": {
+        "source": [
+          "img/inv-bunker-wall-out.png",
+          "img/inv-bunker-wall-in.png",
+          "img/inv-bunker-wall-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Bunker Wall",
+        "description": "Good old memory of the wasteland.",
+        "level": 99
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-bunker-wall.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-bunker-wall.png"
+      },
+      "isDoor": 0,
+      "broken": [
+        {
+          "source": "img/day-bunker-wall-broken0.png"
+        },
+        {
+          "source": "img/day-bunker-wall-broken1.png"
+        },
+        {
+          "source": "img/day-bunker-wall-broken2.png"
+        }
+      ],
+      "instation": [
+        {
+          "source": "img/day-bunker-wall0.png"
+        },
+        {
+          "source": "img/day-bunker-wall1.png"
+        },
+        {
+          "source": "img/day-bunker-wall2.png"
+        },
+        {
+          "source": "img/day-bunker-wall3.png"
+        },
+        {
+          "source": "img/day-bunker-wall4.png"
+        },
+        {
+          "source": "img/day-bunker-wall5.png"
+        },
+        {
+          "source": "img/day-bunker-wall6.png"
+        },
+        {
+          "source": "img/day-bunker-wall7.png"
+        },
+        {
+          "source": "img/day-bunker-wall8.png"
+        },
+        {
+          "source": "img/day-bunker-wall9.png"
+        },
+        {
+          "source": "img/day-bunker-wall10.png"
+        },
+        {
+          "source": "img/day-bunker-wall11.png"
+        },
+        {
+          "source": "img/day-bunker-wall12.png"
+        },
+        {
+          "source": "img/day-bunker-wall13.png"
+        },
+        {
+          "source": "img/day-bunker-wall14.png"
+        },
+        {
+          "source": "img/day-bunker-wall15.png"
+        },
+        {
+          "source": "img/day-bunker-wall16.png"
+        },
+        {
+          "source": "img/day-bunker-wall17.png"
+        },
+        {
+          "source": "img/day-bunker-wall18.png"
+        },
+        {
+          "source": "img/day-bunker-wall19.png"
+        },
+        {
+          "source": "img/day-bunker-wall20.png"
+        },
+        {
+          "source": "img/day-bunker-wall21.png"
+        },
+        {
+          "source": "img/day-bunker-wall22.png"
+        },
+        {
+          "source": "img/day-bunker-wall23.png"
+        },
+        {
+          "source": "img/day-bunker-wall24.png"
+        },
+        {
+          "source": "img/day-bunker-wall25.png"
+        },
+        {
+          "source": "img/day-bunker-wall26.png"
+        },
+        {
+          "source": "img/day-bunker-wall27.png"
+        },
+        {
+          "source": "img/day-bunker-wall28.png"
+        },
+        {
+          "source": "img/day-bunker-wall29.png"
+        },
+        {
+          "source": "img/day-bunker-wall30.png"
+        },
+        {
+          "source": "img/day-bunker-wall31.png"
+        },
+        {
+          "source": "img/day-bunker-wall32.png"
+        },
+        {
+          "source": "img/day-bunker-wall33.png"
+        },
+        {
+          "source": "img/day-bunker-wall34.png"
+        },
+        {
+          "source": "img/day-bunker-wall35.png"
+        },
+        {
+          "source": "img/day-bunker-wall36.png"
+        },
+        {
+          "source": "img/day-bunker-wall37.png"
+        },
+        {
+          "source": "img/day-bunker-wall38.png"
+        },
+        {
+          "source": "img/day-bunker-wall39.png"
+        },
+        {
+          "source": "img/day-bunker-wall40.png"
+        },
+        {
+          "source": "img/day-bunker-wall41.png"
+        },
+        {
+          "source": "img/day-bunker-wall42.png"
+        },
+        {
+          "source": "img/day-bunker-wall43.png"
+        },
+        {
+          "source": "img/day-bunker-wall44.png"
+        },
+        {
+          "source": "img/day-bunker-wall45.png"
+        },
+        {
+          "source": "img/day-bunker-wall46.png"
+        }
+      ],
+      "ground_img": "img/day-ground-bunker-wall.png"
+    },
+    {
+      "id": 154,
+      "img": {
+        "source": [
+          "img/inv-mustard-floor-out.png",
+          "img/inv-mustard-floor-in.png",
+          "img/inv-mustard-floor-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Golden Floor",
+        "description": "Players can't spawn on it",
+        "level": -1
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-stone-floor.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-stone-floor.png"
+      },
+      "isDoor": 0,
+      "broken": [
+        {
+          "source": "img/day-mustard-floor-broken0.png"
+        },
+        {
+          "source": "img/day-mustard-floor-broken1.png"
+        },
+        {
+          "source": "img/day-mustard-floor-broken2.png"
+        }
+      ],
+      "instation": [
+        {
+          "source": "img/day-mustard-floor-0.png"
+        },
+        {
+          "source": "img/day-mustard-floor-1.png"
+        },
+        {
+          "source": "img/day-mustard-floor-2.png"
+        },
+        {
+          "source": "img/day-mustard-floor-3.png"
+        },
+        {
+          "source": "img/day-mustard-floor-4.png"
+        },
+        {
+          "source": "img/day-mustard-floor-5.png"
+        },
+        {
+          "source": "img/day-mustard-floor-6.png"
+        },
+        {
+          "source": "img/day-mustard-floor-7.png"
+        },
+        {
+          "source": "img/day-mustard-floor-8.png"
+        },
+        {
+          "source": "img/day-mustard-floor-9.png"
+        },
+        {
+          "source": "img/day-mustard-floor-10.png"
+        },
+        {
+          "source": "img/day-mustard-floor-11.png"
+        },
+        {
+          "source": "img/day-mustard-floor-12.png"
+        },
+        {
+          "source": "img/day-mustard-floor-13.png"
+        },
+        {
+          "source": "img/day-mustard-floor-14.png"
+        },
+        {
+          "source": "img/day-mustard-floor-15.png"
+        },
+        {
+          "source": "img/day-mustard-floor-16.png"
+        },
+        {
+          "source": "img/day-mustard-floor-17.png"
+        },
+        {
+          "source": "img/day-mustard-floor-18.png"
+        },
+        {
+          "source": "img/day-mustard-floor-19.png"
+        },
+        {
+          "source": "img/day-mustard-floor-20.png"
+        },
+        {
+          "source": "img/day-mustard-floor-21.png"
+        },
+        {
+          "source": "img/day-mustard-floor-22.png"
+        },
+        {
+          "source": "img/day-mustard-floor-23.png"
+        },
+        {
+          "source": "img/day-mustard-floor-24.png"
+        },
+        {
+          "source": "img/day-mustard-floor-25.png"
+        },
+        {
+          "source": "img/day-mustard-floor-26.png"
+        },
+        {
+          "source": "img/day-mustard-floor-27.png"
+        },
+        {
+          "source": "img/day-mustard-floor-28.png"
+        },
+        {
+          "source": "img/day-mustard-floor-29.png"
+        },
+        {
+          "source": "img/day-mustard-floor-30.png"
+        },
+        {
+          "source": "img/day-mustard-floor-31.png"
+        },
+        {
+          "source": "img/day-mustard-floor-32.png"
+        },
+        {
+          "source": "img/day-mustard-floor-33.png"
+        },
+        {
+          "source": "img/day-mustard-floor-34.png"
+        },
+        {
+          "source": "img/day-mustard-floor-35.png"
+        },
+        {
+          "source": "img/day-mustard-floor-36.png"
+        },
+        {
+          "source": "img/day-mustard-floor-37.png"
+        },
+        {
+          "source": "img/day-mustard-floor-38.png"
+        },
+        {
+          "source": "img/day-mustard-floor-39.png"
+        },
+        {
+          "source": "img/day-mustard-floor-40.png"
+        },
+        {
+          "source": "img/day-mustard-floor-41.png"
+        },
+        {
+          "source": "img/day-mustard-floor-42.png"
+        },
+        {
+          "source": "img/day-mustard-floor-43.png"
+        },
+        {
+          "source": "img/day-mustard-floor-44.png"
+        },
+        {
+          "source": "img/day-mustard-floor-45.png"
+        },
+        {
+          "source": "img/day-mustard-floor-46.png"
+        }
+      ],
+      "ground_img": "img/day-ground-mustard-floor.png"
+    },
+    {
+      "id": 155,
+      "img": {
+        "source": [
+          "img/inv-red-floor-out.png",
+          "img/inv-red-floor-in.png",
+          "img/inv-red-floor-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Red floor",
+        "description": "Players can't spawn on it",
+        "level": -1
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-stone-floor.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-stone-floor.png"
+      },
+      "isDoor": 0,
+      "broken": [
+        {
+          "source": "img/day-red-floor-broken0.png"
+        },
+        {
+          "source": "img/day-red-floor-broken1.png"
+        },
+        {
+          "source": "img/day-red-floor-broken2.png"
+        }
+      ],
+      "instation": [
+        {
+          "source": "img/day-red-floor-0.png"
+        },
+        {
+          "source": "img/day-red-floor-1.png"
+        },
+        {
+          "source": "img/day-red-floor-2.png"
+        },
+        {
+          "source": "img/day-red-floor-3.png"
+        },
+        {
+          "source": "img/day-red-floor-4.png"
+        },
+        {
+          "source": "img/day-red-floor-5.png"
+        },
+        {
+          "source": "img/day-red-floor-6.png"
+        },
+        {
+          "source": "img/day-red-floor-7.png"
+        },
+        {
+          "source": "img/day-red-floor-8.png"
+        },
+        {
+          "source": "img/day-red-floor-9.png"
+        },
+        {
+          "source": "img/day-red-floor-10.png"
+        },
+        {
+          "source": "img/day-red-floor-11.png"
+        },
+        {
+          "source": "img/day-red-floor-12.png"
+        },
+        {
+          "source": "img/day-red-floor-13.png"
+        },
+        {
+          "source": "img/day-red-floor-14.png"
+        },
+        {
+          "source": "img/day-red-floor-15.png"
+        },
+        {
+          "source": "img/day-red-floor-16.png"
+        },
+        {
+          "source": "img/day-red-floor-17.png"
+        },
+        {
+          "source": "img/day-red-floor-18.png"
+        },
+        {
+          "source": "img/day-red-floor-19.png"
+        },
+        {
+          "source": "img/day-red-floor-20.png"
+        },
+        {
+          "source": "img/day-red-floor-21.png"
+        },
+        {
+          "source": "img/day-red-floor-22.png"
+        },
+        {
+          "source": "img/day-red-floor-23.png"
+        },
+        {
+          "source": "img/day-red-floor-24.png"
+        },
+        {
+          "source": "img/day-red-floor-25.png"
+        },
+        {
+          "source": "img/day-red-floor-26.png"
+        },
+        {
+          "source": "img/day-red-floor-27.png"
+        },
+        {
+          "source": "img/day-red-floor-28.png"
+        },
+        {
+          "source": "img/day-red-floor-29.png"
+        },
+        {
+          "source": "img/day-red-floor-30.png"
+        },
+        {
+          "source": "img/day-red-floor-31.png"
+        },
+        {
+          "source": "img/day-red-floor-32.png"
+        },
+        {
+          "source": "img/day-red-floor-33.png"
+        },
+        {
+          "source": "img/day-red-floor-34.png"
+        },
+        {
+          "source": "img/day-red-floor-35.png"
+        },
+        {
+          "source": "img/day-red-floor-36.png"
+        },
+        {
+          "source": "img/day-red-floor-37.png"
+        },
+        {
+          "source": "img/day-red-floor-38.png"
+        },
+        {
+          "source": "img/day-red-floor-39.png"
+        },
+        {
+          "source": "img/day-red-floor-40.png"
+        },
+        {
+          "source": "img/day-red-floor-41.png"
+        },
+        {
+          "source": "img/day-red-floor-42.png"
+        },
+        {
+          "source": "img/day-red-floor-43.png"
+        },
+        {
+          "source": "img/day-red-floor-44.png"
+        },
+        {
+          "source": "img/day-red-floor-45.png"
+        },
+        {
+          "source": "img/day-red-floor-46.png"
+        }
+      ],
+      "ground_img": "img/day-ground-red-floor.png"
+    },
+    {
+      "id": 156,
+      "img": {
+        "source": [
+          "img/inv-welding-machine-out.png",
+          "img/inv-welding-machine-in.png",
+          "img/inv-welding-machine-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Welding Machine",
+        "description": "Allow you to make logic gates",
+        "level": -1
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-welding-machine.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-welding-machine.png"
+      },
+      "isDoor": 0,
+      "ground_img": "img/day-ground-welding-machine.png"
+    },
+    {
+      "id": 157,
+      "img": {
+        "source": [
+          "img/inv-wire4-out.png",
+          "img/inv-wire4-in.png",
+          "img/inv-wire4-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Cable  - Bridge",
+        "description": "Create automatic mechanisms",
+        "level": -1
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-wire4.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-wire4.png"
+      },
+      "isDoor": 0,
+      "ground_img": "img/day-ground-wire4.png"
+    },
+    {
+      "id": 158,
+      "img": {
+        "source": [
+          "img/inv-timer-out.png",
+          "img/inv-timer-in.png",
+          "img/inv-timer-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Gate Timer",
+        "description": "Emit a signal regularly.",
+        "level": -1
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-timer.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-timer.png"
+      },
+      "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/day-timer-0.png"
+        },
+        {
+          "source": "img/day-timer-1.png"
+        },
+        {
+          "source": "img/day-timer-2.png"
+        },
+        {
+          "source": "img/day-timer-3.png"
+        }
+      ],
+      "ground_img": "img/day-ground-timer.png"
+    },
+    {
+      "id": 159,
+      "img": {
+        "source": [
+          "img/inv-xor-out.png",
+          "img/inv-xor-in.png",
+          "img/inv-xor-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Gate Xor",
+        "description": "Activate only if only one entry is on.",
+        "level": -1
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-xor.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-xor.png"
+      },
+      "isDoor": 0,
+      "ground_img": "img/day-ground-xor.png"
+    },
+    {
+      "id": 160,
+      "img": {
+        "source": [
+          "img/skill-eye1-out.png",
+          "img/skill-eye1-in.png",
+          "img/skill-eye1-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Vision 1",
+        "description": "Improve your vision",
+        "level": 0
+      },
+      "ground_img": "img/skill-eye1.png"
+    },
+    {
+      "id": 161,
+      "img": {
+        "source": [
+          "img/skill-eye2-out.png",
+          "img/skill-eye2-in.png",
+          "img/skill-eye2-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Vision 2",
+        "description": "Improve your vision",
+        "level": 5
+      },
+      "ground_img": "img/skill-eye2.png"
+    },
+    {
+      "id": 162,
+      "img": {
+        "source": [
+          "img/skill-eye3-out.png",
+          "img/skill-eye3-in.png",
+          "img/skill-eye3-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Vision 3",
+        "description": "Improve your vision",
+        "level": 7
+      },
+      "ground_img": "img/skill-eye3.png"
+    },
+    {
+      "id": 163,
+      "img": {
+        "source": [
+          "img/skill-builder1-out.png",
+          "img/skill-builder1-in.png",
+          "img/skill-builder1-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Builder 1",
+        "description": "Multiplies some craft by two",
+        "level": 6
+      },
+      "ground_img": "img/skill-builder1.png"
+    },
+    {
+      "id": 164,
+      "img": {
+        "source": [
+          "img/skill-builder2-out.png",
+          "img/skill-builder2-in.png",
+          "img/skill-builder2-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Builder 2",
+        "description": "Repair much faster",
+        "level": 18
+      },
+      "ground_img": "img/skill-builder2.png"
+    },
+    {
+      "id": 165,
+      "img": {
+        "source": [
+          "img/skill-inv1-out.png",
+          "img/skill-inv1-in.png",
+          "img/skill-inv1-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Inventory 1",
+        "description": "Add a slot in your inventory",
+        "level": 0
+      },
+      "ground_img": "img/skill-inv1.png"
+    },
+    {
+      "id": 166,
+      "img": {
+        "source": [
+          "img/skill-inv2-out.png",
+          "img/skill-inv2-in.png",
+          "img/skill-inv2-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Inventory 2",
+        "description": "Add a slot in your inventory",
+        "level": 5
+      },
+      "ground_img": "img/skill-inv2.png"
+    },
+    {
+      "id": 167,
+      "img": {
+        "source": [
+          "img/skill-inv3-out.png",
+          "img/skill-inv3-in.png",
+          "img/skill-inv3-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Inventory 3",
+        "description": "Add a slot in your bag",
+        "level": 7
+      },
+      "ground_img": "img/skill-inv3.png"
+    },
+    {
+      "id": 168,
+      "img": {
+        "source": [
+          "img/skill-inv4-out.png",
+          "img/skill-inv4-in.png",
+          "img/skill-inv4-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Inventory 4",
+        "description": "Add two slots in your bag",
+        "level": 10
+      },
+      "ground_img": "img/skill-inv4.png"
+    },
+    {
+      "id": 169,
+      "img": {
+        "source": [
+          "img/skill-inv5-out.png",
+          "img/skill-inv5-in.png",
+          "img/skill-inv5-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Inventory 5",
+        "description": "Add three slots in your bag",
+        "level": 12
+      },
+      "ground_img": "img/skill-inv5.png"
+    },
+    {
+      "id": 170,
+      "img": {
+        "source": [
+          "img/skill-lightweight-out.png",
+          "img/skill-lightweight-in.png",
+          "img/skill-lightweight-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Light Weight",
+        "description": "Less likely to trigger traps.",
+        "level": 8
+      },
+      "ground_img": "img/skill-lightweight.png"
+    }
+  ]
+}
